@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <title>MobilMed</title>
 </head>
@@ -25,8 +27,14 @@
             <div class="container header-middle-cont">
                 <img src="./img/logo.svg" alt="MobilMed Logo" style="vertical-align: middle;">
                 <div class="header-middle-main">
-                    <div class="medbook-title">
-                        Медкнижка
+                    <div class="medbook">
+                        <div class="medbook-title">
+                            Медкнижка
+                        </div>
+                        <div class="medbook-dropdown">
+                            <a>Проверить статус</a>
+                            <a>Проверить книжку</a>
+                        </div>
                     </div>
                     <a href="#" class="blue-button">Запись on-line</a>
                     <div class="phone-icon"><img src="./img/engIcon-phone.svg" /></div>
@@ -85,104 +93,161 @@
         <section class="analysis-popular">
             <div class="container2">
                 <p class="section-title">популярные анализы</p>
-                <div class="analysis-slider">
-                    <div class="slider-arrow slider-arrow-left">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20.5" height="33.816" viewBox="0 0 20.5 33.816">
-                        <path id="slider-arrow-left" d="M417.553,591.485l20.5-16.908v33.816Z" transform="translate(-417.553 -574.577)">
-                        </path>
-                    </svg>
-                    </div> <!-- arrow -->
 
-                        <div class="slider-item">
-                            <p class="slider-item-title">Клинический анализ крови</p>
-                            <div>
-                                <div class="slider-item-info">
-                                    <p class="slider-analysis-material">Кровь</p>
-                                    <p class="slider-analysis-time">5 рабочих дней</p>
-                                </div>
-                                <div class="slider-item-bottom">
-                                    <div>
-                                        <p class="slider-item-price">680</p>
-                                        <p>руб.</p>
-                                    </div>
-                                    <a href="#" class="busket"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slider-item">
-                            <p class="slider-item-title">Посев на микрофлору урогенитального тракта женщины</p>
-                            <div>
-                                <div class="slider-item-info">
-                                    <p class="slider-analysis-material">Кал</p>
-                                    <p class="slider-analysis-time">5 рабочих дней</p>
-                                </div>
-                                <div class="slider-item-bottom">
-                                    <div>
-                                        <p class="slider-item-price">2 780</p>
-                                        <p>руб.</p>
-                                    </div>
-                                    <a href="#" class="busket"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slider-item">
-                            <p class="slider-item-title">Клинический анализ мочи</p>
-                            <div>
-                                <div class="slider-item-info">
-                                    <p class="slider-analysis-material">Моча</p>
-                                    <p class="slider-analysis-time">5 рабочих дней</p>
-                                </div>
-                                <div class="slider-item-bottom">
-                                    <div>
-                                        <p class="slider-item-price">680</p>
-                                        <p>руб.</p>
-                                    </div>
-                                    <a href="#" class="busket"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slider-item">
-                            <p class="slider-item-title">Клинический анализ мочи</p>
-                            <div>
-                                <div class="slider-item-info">
-                                    <p class="slider-analysis-material">Моча</p>
-                                    <p class="slider-analysis-time">5 рабочих дней</p>
-                                </div>
-                                <div class="slider-item-bottom">
-                                    <div>
-                                        <p class="slider-item-price">680</p>
-                                        <p>руб.</p>
-                                    </div>
-                                    <a href="#" class="busket"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slider-item">
-                            <p class="slider-item-title">Клинический анализ мочи</p>
-                            <div>
-                                <div class="slider-item-info">
-                                    <p class="slider-analysis-material">Моча</p>
-                                    <p class="slider-analysis-time">5 рабочих дней</p>
-                                </div>
-                                <div class="slider-item-bottom">
-                                    <div>
-                                        <p class="slider-item-price">680</p>
-                                        <p>руб.</p>
-                                    </div>
-                                    <a href="#" class="busket"></a>
-                                </div>
-                            </div>
-                        </div>
+            <div>
+                <img class="swiper-button-prev nav-prev" src="./images/slider-arrow.png">
 
-                    <div class="slider-arrow slider-arrow-right">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20.5" height="33.816" viewBox="0 0 20.5 33.816">
-                                <path id="slider-arrow-right" d="M417.553,591.485l20.5-16.908v33.816Z" transform="translate(-417.553 -574.577)">
-                                </path>
-                            </svg>
-                    </div> <!-- arrow -->
+                <!-- Slider main container -->
+            <div class="swiper-container analysis-slider">
 
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+    
+                  <!-- Slides -->
+                <div class="slider-item swiper-slide">
+                    <p class="slider-item-title">Клинический анализ крови</p>
+                    <div>
+                        <div class="slider-item-info">
+                            <p class="slider-analysis-material">Кровь</p>
+                            <p class="slider-analysis-time">5 рабочих дней</p>
+                        </div>
+                        <div class="slider-item-bottom">
+                            <div>
+                                <p class="slider-item-price">680</p>
+                                <p>руб.</p>
+                            </div>
+                            <a href="#" class="busket"></a>
+                        </div>
+                    </div>
                 </div>
+                <div class="slider-item swiper-slide">
+                    <p class="slider-item-title">Посев на микрофлору урогенитального тракта женщины</p>
+                    <div>
+                        <div class="slider-item-info">
+                            <p class="slider-analysis-material">Кал</p>
+                            <p class="slider-analysis-time">5 рабочих дней</p>
+                        </div>
+                        <div class="slider-item-bottom">
+                            <div>
+                                <p class="slider-item-price">2 780</p>
+                                <p>руб.</p>
+                            </div>
+                            <a href="#" class="busket"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                    <p class="slider-item-title">Клинический анализ мочи</p>
+                    <div>
+                        <div class="slider-item-info">
+                            <p class="slider-analysis-material">Моча</p>
+                            <p class="slider-analysis-time">5 рабочих дней</p>
+                        </div>
+                        <div class="slider-item-bottom">
+                            <div>
+                                <p class="slider-item-price">680</p>
+                                <p>руб.</p>
+                            </div>
+                            <a href="#" class="busket"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                    <p class="slider-item-title">Клинический анализ мочи</p>
+                    <div>
+                        <div class="slider-item-info">
+                            <p class="slider-analysis-material">Моча</p>
+                            <p class="slider-analysis-time">5 рабочих дней</p>
+                        </div>
+                        <div class="slider-item-bottom">
+                            <div>
+                                <p class="slider-item-price">680</p>
+                                <p>руб.</p>
+                            </div>
+                            <a href="#" class="busket"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                    <p class="slider-item-title">Клинический анализ мочи</p>
+                    <div>
+                        <div class="slider-item-info">
+                            <p class="slider-analysis-material">Моча</p>
+                            <p class="slider-analysis-time">5 рабочих дней</p>
+                        </div>
+                        <div class="slider-item-bottom">
+                            <div>
+                                <p class="slider-item-price">680</p>
+                                <p>руб.</p>
+                            </div>
+                            <a href="#" class="busket"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                    <p class="slider-item-title">Клинический анализ мочи</p>
+                    <div>
+                        <div class="slider-item-info">
+                            <p class="slider-analysis-material">Моча</p>
+                            <p class="slider-analysis-time">5 рабочих дней</p>
+                        </div>
+                        <div class="slider-item-bottom">
+                            <div>
+                                <p class="slider-item-price">680</p>
+                                <p>руб.</p>
+                            </div>
+                            <a href="#" class="busket"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                    <p class="slider-item-title">Клинический анализ мочи</p>
+                    <div>
+                        <div class="slider-item-info">
+                            <p class="slider-analysis-material">Моча</p>
+                            <p class="slider-analysis-time">5 рабочих дней</p>
+                        </div>
+                        <div class="slider-item-bottom">
+                            <div>
+                                <p class="slider-item-price">680</p>
+                                <p>руб.</p>
+                            </div>
+                            <a href="#" class="busket"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-item swiper-slide">
+                    <p class="slider-item-title">Клинический анализ мочи</p>
+                    <div>
+                        <div class="slider-item-info">
+                            <p class="slider-analysis-material">Моча</p>
+                            <p class="slider-analysis-time">5 рабочих дней</p>
+                        </div>
+                        <div class="slider-item-bottom">
+                            <div>
+                                <p class="slider-item-price">680</p>
+                                <p>руб.</p>
+                            </div>
+                            <a href="#" class="busket"></a>
+                        </div>
+                    </div>
+                </div>
+                  
+                </div>
+    
+                <!-- <img class="swiper-button-prev nav-prev" src="./images/slider-arrow.png">
+                <img class="swiper-button-next nav-next" src="./images/slider-arrow.png"> -->
+    
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                
+                </div>
+
+                <img class="swiper-button-next nav-next" src="./images/slider-arrow.png">
             </div>
+            
+            </div>
+            
         </section>
 
         <section class="research-types">
@@ -378,11 +443,13 @@
                         <a href="https://ok.ru/group/55080573599745"><img src="./img/ok.png" alt=""></a>
                     </div>
                     <p class="footer-link">8 495 156 16 80</p>
-                    <a href="http://www.1c-bitrix.ru/composite/" class="bitrix-link">Быстро с 1С-Битрикс</a>
                 </div>
             </div>
         </div>
     </footer>
 
+    <script src="./swiper-bundle.min.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
