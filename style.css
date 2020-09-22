@@ -180,6 +180,8 @@ a {
     color: #fff;
     margin-left: 3px;
     transition: 0.3s;
+    line-height: inherit;
+    vertical-align: top;
 }
 .header-nav > ul > li:hover {
     background-color: #007CBD;
