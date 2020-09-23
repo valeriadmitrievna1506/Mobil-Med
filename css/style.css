@@ -9,14 +9,12 @@
     max-width: 1155px;
     margin: auto;
     font-family: 'Circe', sans-serif;
-    line-height: 1.5;
 }
 .container2 {
     width: 100%;
     max-width: 1255px;
     margin: auto;
     font-family: 'Circe', sans-serif;
-    line-height: 1.5;
 }
 li {
     cursor: pointer;
@@ -338,19 +336,19 @@ a {
     color: #0085CE;
 }
 .slider-item-info {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 1px solid #0085CE;
 }
 .slider-item-info > p {
-    height: 16px;
+    height: 18px;
     padding-left: 20px;
 }
 .slider-analysis-material {
     background-image: url(../images/analysis-icon-1.svg);
     background-repeat: no-repeat;
     background-position: left center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .slider-analysis-time {
     background-image: url(../images/calendar-icon.svg);
