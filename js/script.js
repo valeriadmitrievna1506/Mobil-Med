@@ -1,18 +1,4 @@
-var mySwiper = new Swiper('.swiper-container', {
-    loop: true,
-    slidesPerView: 5,
-    spaceBetween: 20,
-    pagination: {
-        el: '.swiper-pagination',
-        bulletClass: 'swiper-bullet',
-        bulletActiveClass: 'swiper-bullet-active',
-        clickable: true
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-});
+// for all pages
 
 $('.medbook-title').mouseenter(function () {
   $('.medbook-dropdown').css("display", "flex");
@@ -20,3 +6,15 @@ $('.medbook-title').mouseenter(function () {
 $('.medbook').mouseleave(function () {
   $('.medbook-dropdown').css("display", "none");
 });
+
+// test
+$('.header-nav ul:first-of-type li').mouseenter(function(item) {
+  item.target.childNodes[3].style.display = 'flex';
+});
+$('.header-nav ul:first-of-type li ul').mouseleave(function(item) {
+  item.currentTarget.style.display = 'none';
+});
+$('.header-nav ul:first-of-type li').mouseleave(function(item) {
+  item.target.childNodes[3].style.display = 'none';
+});
+

@@ -1,0 +1,196 @@
+.section-title {
+  font-size: 24px;
+  font-weight: 300;
+  text-align-last: left;
+  font-family: "Circe Light";
+}
+body {
+  font-size: 13px;
+  color: #333;
+}
+
+/* ******************************************************************* */
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 270px 50px;
+  top: 0;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 72px;
+}
+.swiper-button-prev {
+  left: 0;
+}
+.swiper-button-next {
+  right: 0;
+}
+.swiper-bullet {
+  margin-right: 10px;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding: 2px;
+  background: #000;
+  opacity: 0.3;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.74);
+  cursor: pointer;
+}
+.swiper-bullet-active {
+  padding: 0px;
+  opacity: 1;
+  background: #0e8acd;
+}
+
+/* ******************************************************************* */
+
+.points-map-section {
+  padding: 50px 0;
+}
+.points-map-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.points-map-block > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-basis: 45%;
+}
+.list-point {
+  width: 100%;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  font-family: "Circe Light";
+}
+.list-point-image {
+  width: 120px;
+  height: 120px;
+  border: none;
+  margin-right: 20px;
+  background-size: contain;
+}
+.list-point-desc-title {
+  max-width: 360px;
+  margin-bottom: 5px;
+  font-size: 23px;
+  font-weight: 300;
+  color: #656565;
+}
+.list-point-desc-subtitle {
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #008bd4;
+}
+
+/* ******************************************************************* */
+
+.services {
+  padding: 50px 0;
+}
+.services-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.service-item {
+  flex-basis: 33.3%;
+  background: #f9f9f9;
+  font-family: "Circe Light";
+  padding: 50px;
+  font-weight: 300;
+}
+.service-item:hover {
+  color: #fff;
+  background: #008bd4;
+}
+.service-title {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 21px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: right center;
+}
+.service-text {
+  font-size: 15px;
+  margin-bottom: 25px;
+  line-height: 25px;
+  height: 75px;
+  overflow: hidden;
+}
+.service-button {
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.service-item:hover > .service-button {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* ****************************************************************** */
+
+.medbooksText {
+  background: #f9f9f9;
+  padding: 20px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  text-align: center;
+  color: #323948;
+}
+.section-title-2 {
+  font: 100 30px/32px "Circe Light";
+  margin-bottom: 24px;
+}
+.medbooks-text-block {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 50px;
+  font-stretch: extra-condensed;
+}
+.medbooks-subtitle {
+  font: 600 24px "Circe Light";
+  margin: 34px 0 24px;
+}
+.medbooks-text {
+  font: 100 17px "Circe Light";
+  margin-bottom: 15px;
+  color: #323948;
+  line-height: 1.25;
+}
+.text-list {
+  display: block;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+.text-list > li {
+  padding-left: 25px;
+  list-style: disc outside none !important;
+  padding-left: 5px !important;
+  margin-left: 20px;
+  margin-bottom: 14px !important;
+}
+.list-title,
+.list-item-title {
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+.list-title {
+  margin-bottom: 15px;
+}
+.list-item-text {
+  font: 100 16px "Circe Light";
+  color: #323948;
+  line-height: 1.2;
+}
