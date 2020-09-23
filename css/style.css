@@ -96,7 +96,6 @@ a {
 .medbook-dropdown {
     position: absolute;
     z-index: 5;
-    top: 100px;
     flex-direction: column;
     display: none;
 }
@@ -108,7 +107,7 @@ a {
     line-height: 1.5;
     color: #333333;
     text-align: center;
-    width: 170px;
+    width: 163px;
     background-color: #fff;
 }
 .medbook-dropdown > a:hover {
