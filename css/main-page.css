@@ -13,15 +13,14 @@ body {
 
 .swiper-container {
   width: 100%;
-  height: 600px;
 }
 .swiper-slide > img {
-  height: 600px;
+  height: 700px;
 }
 .swiper-button-prev,
 .swiper-button-next {
   background-color: rgba(255, 255, 255, 0.25);
-  padding: 320px 50px;
+  padding: 360px 50px;
   top: 0;
 }
 .swiper-button-prev::after,
@@ -97,6 +96,16 @@ body {
   margin-bottom: 5px;
   font-size: 12px;
   color: #008bd4;
+}
+.list-point:hover {
+  color: #fff!important;
+  background: #008bd4;
+}
+.list-point-description:hover > .list-point-desc-title,
+.list-point-description:hover > .list-point-desc-subtitle,
+.list-point:hover > .list-point-desc-title,
+.list-point:hover > .list-point-desc-subtitle {
+  color: #fff!important;
 }
 
 /* ******************************************************************* */
@@ -200,4 +209,11 @@ body {
   font: 100 16px "Circe Light";
   color: #323948;
   line-height: 1.2;
+}
+
+/* ********************************************************************************** */
+/* MOBILE ADAPTATION */
+
+@media (max-width: 400px) {
+    
 }
