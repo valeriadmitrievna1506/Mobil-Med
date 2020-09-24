@@ -20,80 +20,6 @@
 
   /* ******************************************************************* */
 
-  .header-top-mobile > .container > img:last-of-type {
-    width: 40px;
-  }
-  .header-top-mobile > .container > img:first-of-type {
-    height: 40px;
-  }
-  .header-top-mobile > .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 0;
-  }
-  .container {
-    width: 90%;
-    max-width: 375px;
-  }
-  .header-top,
-  .header-menu {
-    display: none;
-  }
-  .header-middle-cont > img {
-    display: none;
-  }
-  .header-middle-main {
-    flex-wrap: wrap;
-  }
-  .medbook-title {
-    padding: 5px 35px;
-    font-size: 100%;
-    height: 37.9px;
-    line-height: 2;
-  }
-  .header-middle-main > .blue-button {
-    padding: 8px 20px;
-  }
-  .medbook,
-  .header-middle-main > .blue-button {
-    height: 37.9px;
-    line-height: 1.7;
-    text-align: center;
-    margin: 0;
-    margin-bottom: 15px;
-    flex-basis: 45%;
-    font-size: 100%;
-  }
-  .phone-icon {
-    margin: 0;
-    width: 45px;
-    height: 45px;
-  }
-  .phone-icon > img {
-    width: 25px;
-    height: 25px;
-  }
-  .header-number-block {
-    padding: 0;
-    flex-basis: 37%;
-  }
-  .hnb-first {
-    padding: 0;
-    border: none;
-  }
-  .header-number {
-    font-size: 100%;
-  }
-  .header-number-subtitle {
-    font-size: 11px;
-  }
-  .header-number-block > * > br {
-    display: inline-block;
-  }
-
-  /* ******************************************************************* */
-
   .swiper-slide > img {
     height: 200px;
   }
@@ -136,7 +62,7 @@
   .list-point-desc-title {
     max-width: 250px;
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.2;
     font-weight: 300;
     color: #656565;
@@ -169,41 +95,39 @@
   .medbooks-text-block {
     margin-bottom: 30px;
   }
-
-  /* ******************************************************************* */
-
-  footer {
-    padding-top: 20px;
-  }
-  .footer {
-    flex-wrap: wrap;
-  }
-  .footer-column {
-    flex-basis: 48%;
-  }
-  .footer-number-block > .header-number {
-    font-size: 22px;
-  }
-  .footer-number-block > .header-number-subtitle {
-    font-size: 14px;
-  }
-  .social-links > a > img {
-    margin-right: 10px;
-    margin-bottom: 0;
-  }
-  .footer-column:last-of-type > .footer-link {
-    font-size: 14px;
-  }
 }
 
 /* ******************************************************************* */
 
 /* ****** EXTRA ****** */
-.comissions > br {
+.comissions > br, .mb-service-title > br {
   display: none;
 }
+
 @media (max-width: 340px) {
   .comissions > br {
+    display: inline-block;
+  }
+}
+@media (max-width: 360px) {
+  .list-point-desc-title {
+    max-width: 250px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #656565;
+  }
+  .list-point-desc-subtitle {
+    font-size: 10px;
+  }
+  .list-point-description > p:last-of-type {
+    line-height: 1;
+    font-size: 11px;
+  }
+}
+@media (max-width: 375px) {
+  .mb-service-title > br {
     display: inline-block;
   }
 }
