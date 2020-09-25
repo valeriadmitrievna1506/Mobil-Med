@@ -29,7 +29,6 @@ li {
   text-transform: uppercase;
 }
 
-
 /* ********************************************************************** */
 
 .header-top {
@@ -61,6 +60,9 @@ a {
 
 /* ********************************************************************** */
 
+.header-number-block > * > br {
+  display: none;
+}
 .header-middle-cont {
   padding: 20px 0;
   display: flex;
@@ -107,6 +109,7 @@ a {
   z-index: 5;
   flex-direction: column;
   display: none;
+  align-items: center;
 }
 .medbook-dropdown > a {
   cursor: pointer;
@@ -312,6 +315,218 @@ footer {
   margin-bottom: 10px;
 }
 
+
+
+
+/* ******************************************************************* */
+/* ***** TABLET VERSIONS ***** */
+
+@media (max-width: 1230px) {
+  .header-nav > ul > li {
+    padding: 15px 8px 15px;
+    padding-left: 14px;
+    font-size: 13px;
+    margin: 0;
+  }
+  .phone-icon {
+    margin-left: 15px;
+  }
+  .header-nav > ul:last-of-type > li > a {
+    color: #fff;
+    margin-left: 15px;
+    padding: 0 25px;
+  }
+  .user-account {
+    background-size: 20px;
+    background-position: 20px center;
+  }
+  .medbook-title {
+    padding: 9px 20px 5px 15px;
+    font-size: 12px;
+    height: 35px;
+    width: 110px;
+  }
+  .blue-button {
+    width: 135px;
+    text-align: center;
+    font-size: 12px;
+    height: 35px;
+  }
+}
+@media (max-width: 1088px) {
+  .header-middle-cont > img {
+    width: 170px;
+  }
+  .header-number {
+    font-size: 19px;
+  }
+  .header-nav > ul > li {
+    padding: 11px 4px;
+    padding-left: 10px;
+    font-size: 13px;
+  }
+  .header-nav > ul > li::after {
+    position: relative;
+    right: -6px;
+    background: #299ddb;
+    vertical-align: middle;
+  }
+  .phone-icon {
+    margin-left: 15px;
+  }
+  .header-nav > ul:last-of-type > li > a {
+    color: #fff;
+    margin-left: 15px;
+    padding: 0 25px;
+  }
+  .user-account {
+    background-size: 20px;
+    background-position: 20px center;
+  }
+  .nav-search {
+    padding: 13px!important;
+    width: 41px;
+    height: 41px;
+  }
+  .nav-search > img {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media (max-width: 990px) {
+  .header-top-mobile {
+    display: block!important;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+  }
+  .header-middle-cont > img, .header-top, .header-menu {
+    display: none;
+  } 
+  .header-middle-main {
+    flex-basis: 100%;
+  }
+  .header-number-block {
+    padding: 0 10px;
+    border: none;
+  }
+  .phone-icon {
+    margin-left: 140px;
+  }
+}
+@media (max-width: 885px) {
+  .phone-icon {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 790px) {
+  .phone-icon {
+    margin: 0;
+  }
+  .header-middle-main > .blue-button {
+    width: auto;
+    padding: 8px 15px;
+  }
+  .footer-column {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .footer-column-block {
+    flex-basis: 33%;
+  }
+  footer {
+    padding-top: 20px;
+  }
+  .footer-column:nth-of-type(2) {
+    order: -1;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer-column:nth-of-type(3) {
+    width: 66%;
+  }
+  .footer-column:nth-of-type(3) > .footer-column-block {
+    flex-basis: 50%;
+  }
+  .footer-column:last-of-type {
+    flex-direction: column;
+    flex-basis: 33%;
+  }
+  .medbook {
+    margin: 0;
+  }
+}
+@media (max-width: 700px) {
+  .header-number-block {
+    padding: 0;
+  }
+  .medbook {
+    margin: 0;
+  }
+  .header-number {
+    font-size: 16px;
+  }
+  .header-number-subtitle {
+    font-size: 10px;
+  }
+}
+@media (max-width: 590px) {
+  .header-middle-main {
+    flex-wrap: wrap;
+  }
+  .header-middle-main > .blue-button, .medbook {
+    flex-basis: 49%;
+    margin-bottom: 10px;
+  }
+  .medbook-title {
+    width: auto;
+    text-align: center;
+  }
+  .header-number-block:last-of-type {
+    margin-right: 20%;
+  }
+  .medbook-dropdown {
+    width: 47%;
+  }
+  .medbook-dropdown > a {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  footer {
+    padding-top: 20px;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer-column {
+    flex-basis: 48%!important;
+    display: block;
+  }
+  .footer-number-block > .header-number {
+    font-size: 18px;
+  }
+  .footer-number-block > .header-number-subtitle {
+    font-size: 14px;
+  }
+  .social-links > a > img {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+  .footer-column:last-of-type > .footer-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header-number-block:last-of-type {
+    margin: 0;
+  }
+}
+
+
 /* MOBILE ADAPTATION HEADER + FOOTER */
 @media (max-width: 415px) {
   .header-top-mobile {
@@ -330,13 +545,6 @@ footer {
 
   /* ******************************************************************* */
 
-  .menu-burger {
-    height: 40px;
-    width: 40px;
-  }
-  .menu-burger > img {
-    width: 40px;
-  }
   .header-top-mobile > .container > img:first-of-type {
     height: 40px;
   }
@@ -359,7 +567,6 @@ footer {
   .medbook-title {
     padding: 5px 35px;
     font-size: 100%;
-    height: 37.9px;
     line-height: 2;
   }
   .header-middle-main > .blue-button {
@@ -367,7 +574,6 @@ footer {
   }
   .medbook,
   .header-middle-main > .blue-button {
-    height: 37.9px;
     line-height: 1.7;
     text-align: center;
     margin: 0;
@@ -404,61 +610,38 @@ footer {
 
   /* ******************************************************************* */
 
-  footer {
-    padding-top: 20px;
-  }
-  .footer {
-    flex-wrap: wrap;
-  }
-  .footer-column {
-    flex-basis: 48%;
-  }
-  .footer-number-block > .header-number {
-    font-size: 22px;
-  }
-  .footer-number-block > .header-number-subtitle {
-    font-size: 14px;
-  }
-  .social-links > a > img {
-    margin-right: 10px;
-    margin-bottom: 0;
-  }
-  .footer-column:last-of-type > .footer-link {
-    font-size: 14px;
-  }
 }
 
-  /* ******************************************************************* */
-  /* ***** TABLET VERSIONS ***** */
 
-  @media (max-width: 1230px) {
-    .header-nav > ul > li {
-      padding: 15px 8px 15px;
-      padding-left: 4px;
-      font-size: 13px;
-      margin-left: 3px;
-    }
-    .header-nav > ul:last-of-type > li > a {
-      color: #fff;
-      margin-left: 15px;
-      padding: 0 25px;
-    }
-    .user-account {
-      background-size: 20px;
-      background-position: 20px center;
-    }
-  }
-
+/* ******************************************************************* */
 /* ***** DROPDOWN MOBILE MENU ***** */
+.header-top-mobile > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-top-mobile {
+  padding: 5px 0;
+    display: none;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+}
 #dropdown-burger {
   display: none;
   opacity: 0.99;
   left: 0;
-  top: 60px;
   position: absolute;
   background-color: #008bd4;
   z-index: 40;
   width: 100%;
+}
+.menu-burger {
+  height: 40px;
+  width: 40px;
+}
+.menu-burger > img {
+  width: 40px;
 }
 .dropdown-burger {
   display: flex;
@@ -477,7 +660,7 @@ footer {
 }
 .burger-user-account {
   background-color: #0074b3;
-  padding-right: 70px!important;
+  padding-right: 70px !important;
   background-image: url(../images/engIcon-login.svg);
   background-repeat: no-repeat;
   background-size: 40px;
