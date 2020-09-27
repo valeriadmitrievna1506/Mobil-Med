@@ -1,3 +1,6 @@
+* {
+  transition: 0.3s;
+}
 .section-title {
   font-size: 24px;
   font-weight: 300;
@@ -11,16 +14,21 @@ body {
 
 /* ******************************************************************* */
 
-.swiper-container {
-  width: 100%;
+.swiper-slide {
+  margin: 0;
 }
 .swiper-slide > img {
-  height: 700px;
+  width: 100%;
+}
+.swiper-container {
+  width: 100%;
 }
 .swiper-button-prev,
 .swiper-button-next {
   background-color: rgba(255, 255, 255, 0.25);
-  padding: 360px 50px;
+  height: 100%;
+  width: 5%;
+  margin-top: 0;
   top: 0;
 }
 .swiper-button-prev::after,
@@ -83,7 +91,9 @@ body {
   height: 120px;
   border: none;
   margin-right: 20px;
+  background-position: center center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .list-point-desc-title {
   max-width: 360px;
@@ -136,7 +146,7 @@ body {
   font-size: 21px;
   background-repeat: no-repeat;
   background-size: 30px 30px;
-  background-position: right center;
+  background-position: right top;
 }
 .service-text {
   font-size: 15px;
@@ -209,11 +219,4 @@ body {
   font: 100 16px "Circe Light";
   color: #323948;
   line-height: 1.2;
-}
-
-/* ********************************************************************************** */
-/* MOBILE ADAPTATION */
-
-@media (max-width: 400px) {
-    
 }

@@ -2,8 +2,9 @@
 
 let mainPageSwiper = new Swiper('.swiper-container', {
     loop: true,
-    slidesPerView: 0.7,
+    slidesPerView: 1,
     spaceBetween: 0,
+    speed: 500,
     pagination: {
         el: '.swiper-pagination',
         bulletClass: 'swiper-bullet',

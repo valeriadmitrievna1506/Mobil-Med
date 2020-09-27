@@ -11,15 +11,3 @@ $('.medbook-title').click(function () {
 $('#menu-burger').click(function() {
   $('#dropdown-burger').slideToggle(500);
 });
-
-// test
-$('.header-nav ul:first-of-type li').mouseenter(function(item) {
-  item.target.childNodes[3].style.display = 'flex';
-});
-$('.header-nav ul:first-of-type li ul').mouseleave(function(item) {
-  item.currentTarget.style.display = 'none';
-});
-$('.header-nav ul:first-of-type li').mouseleave(function(item) {
-  item.target.childNodes[3].style.display = 'none';
-});
-
