@@ -552,6 +552,7 @@ footer {
 }
 
 
+/* ******************************************************************* */
 /* MOBILE ADAPTATION HEADER + FOOTER */
 @media (max-width: 415px) {
   .header-top-mobile {

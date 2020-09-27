@@ -1,4 +1,6 @@
-
+* {
+    transition: 0.3s;
+}
 /* ********************************************************************** */
 
 .analysis-search > div > h1 {
@@ -105,7 +107,6 @@
     transition: 0.3s;
     color: #404E55;
     height: 229px;
-    width: 206px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -232,6 +233,9 @@
     transition: 0.3s;
     line-height: 1;
 }
+.research-item:nth-of-type(7), .research-item:nth-of-type(8), .research-item:nth-of-type(9) {
+    border: none;
+}
 .research-item-title {
     font-size: 16px;
 }
@@ -266,11 +270,13 @@
 
 .points-map-block {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
-.points-map-block > ul{
+.points-map-block > ul {
+    flex-basis: 47%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -282,14 +288,19 @@
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 20px;
+    width: 100%;
+}
+.list-point-description {
+    flex-basis: 80%;
 }
 .list-point-image {
     width: 95px;
     height: 95px;
     border: none;
-    border-radius: 8px;
-    margin-right: 20px;
-}
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 .list-point-desc-title {
     font-size: 15px;
     line-height: 16px;
@@ -301,5 +312,9 @@
     line-height: 16px;
     color: #404E55;
 }
+#map {
+    flex-basis: 52%;
+    height: 600px!important;
+  }
 
 /* ******************************************************************* */
