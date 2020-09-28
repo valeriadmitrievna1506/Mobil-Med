@@ -184,6 +184,7 @@ body {
 }
 .hidden-text-block {
   display: none;
+  height: 100%;
 }
 .medbooks-subtitle {
   font: 600 24px "Circe Light";

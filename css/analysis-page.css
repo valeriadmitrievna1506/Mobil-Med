@@ -13,7 +13,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #8EC8E7;
+    border: 1px solid #0085CE;
+    position: relative;
 }
 .search-form-input {
     padding: 22px 75px 22px 14px;
@@ -31,9 +32,8 @@
     color: #495257;
     opacity: 0.8;
 }
-.search-form:focus {
+.search-form::selection {
     outline: none;
-    border: 1px solid #0085CE;
 }
 .search-form-btn {
     cursor: pointer;
@@ -41,8 +41,69 @@
     padding: 14px 6px;
     background-color: transparent;
     border: none;
-    border-left: 1px solid #8EC8E7;
+    border-left: 1px solid #0085CE;
 }
+
+.search-dropdown {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 100%;
+    padding: 0 15px;
+    background-color: #fff;
+    width: 100%;
+    border-top: 1px solid #0085CE;
+    box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.25);
+}
+.search-card {
+    padding: 10px 0;
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c5c5c5;
+}
+.search-card-name {
+    flex-basis: 60%;
+    font-size: 15px;
+    color: #404e55;
+}
+.search-card:hover > .search-card-name {
+    color: #0085CE;
+}
+.search-card > p {
+    font-size: 14px;
+    color: #404e55;
+}
+.search-buy-block {
+    flex-basis: 15%;
+}
+.search-buy-block, .search-price {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+.small-price-text {
+    font-size: 12px;
+    color: #404E55;
+    margin-left: 8px;
+}
+.search-buy-block > div > p {
+    text-decoration: line-through;
+}
+.search-dropdown > a {
+    display: inline-block;
+    text-decoration: underline;
+    margin: 20px 5px;
+}
+
+.search-form-input:focus ~ .search-dropdown {
+    display: block;
+}
+
 .cards {
     display: flex;
     align-items: center;
@@ -153,6 +214,7 @@
 .slider-item-price {
     font-family: 'Circe Bold';
     font-weight: 700;
+    line-height: 1.2;
     font-size: 25px;
     color: #0085CE;
 }
@@ -323,3 +385,13 @@
 }
 
 /* ******************************************************************* */
+
+.text-block-seo {
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #444444;
+}
+.text-block-seo > .container > p:nth-of-type(1),
+.text-block-seo > .container > p:nth-of-type(2) {
+    margin-bottom: 15px;
+}
