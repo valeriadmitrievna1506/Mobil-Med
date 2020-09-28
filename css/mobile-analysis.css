@@ -86,11 +86,13 @@
 }
 
 @media (max-width: 680px) {
-    
   .points-map-block > ul,
   #map {
     flex-basis: 100%;
     width: 100%;
+  }
+  #map {
+    height: 450px !important;
   }
   .points-map-block > ul {
     flex-flow: wrap row;
@@ -106,7 +108,7 @@
     margin-right: 10px;
   }
   .list-point-desc-title {
-      font-size: 13px;
+    font-size: 13px;
   }
   .list-point-description {
     flex-basis: auto;
@@ -114,61 +116,66 @@
 }
 
 @media (max-width: 652px) {
-    .list-point {
-        width: 100%;
-    }
-    .list-point-image {
-        width: 110px;
-        height: 110px;
-    }
-    .list-point-desc-title {
-        font-size: 16px;
-        margin-bottom: 5px;
-    }
-    .list-point-desc-text {
-      font-size: 13px;
-    }
+  .list-point {
+    width: 100%;
+  }
+  .list-point-image {
+    width: 110px;
+    height: 110px;
+  }
+  .list-point-desc-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .list-point-desc-text {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 550px) {
-    a.card {
-        flex-basis: 49%!important;
-        margin: 0!important;
-        margin-bottom: 10px!important;
-    }
-    a.card:nth-of-type(4) {
-        order: 5;
-    }
+  a.card {
+    flex-basis: 49% !important;
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+  }
+  a.card:nth-of-type(4) {
+    order: 5;
+    flex-basis: 100%!important;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
-    .research-item {
-        flex-basis: 100%;
-    }
+  .research-item {
+    flex-basis: 100%;
+  }
 }
 
 @media (max-width: 450px) {
-    .list-point-image {
-        width: 80px!important;
-        height: 80px!important;
-    }
-    .list-point-description {
-        flex-basis: 76%;
-    }
-    .list-point-desc-title {
-        font-size: 13px;
-        margin: 0;
-    }
-    .list-point-desc-text {
-        font-size: 11px;
-      }
-      .list-point {
-          align-items: flex-start;
-      }
+  .list-point-image {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .list-point-description {
+    flex-basis: 76%;
+  }
+  .list-point-desc-title {
+    font-size: 13px;
+    margin: 0;
+  }
+  .list-point-desc-text {
+    font-size: 11px;
+  }
+  .list-point {
+    align-items: flex-start;
+  }
+  .search-form-input {
+    padding: 14px 18px 14px 10px;
+  }
 }
 
 @media (max-width: 365px) {
-    a.card {
-        flex-basis: 100%!important;
-    }
+  a.card {
+    flex-basis: 100% !important;
+  }
 }

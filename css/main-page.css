@@ -1,6 +1,3 @@
-* {
-  transition: 0.3s;
-}
 .section-title {
   font-size: 24px;
   font-weight: 300;
@@ -159,6 +156,7 @@ body {
   display: inline-block;
   font-size: 16px;
   padding: 10px 20px;
+  background-color: #f2f2f2;
 }
 .service-item:hover > .service-button {
   color: rgb(255, 255, 255);
@@ -182,8 +180,10 @@ body {
 .medbooks-text-block {
   width: 100%;
   text-align: left;
-  margin-bottom: 50px;
   font-stretch: extra-condensed;
+}
+.hidden-text-block {
+  display: none;
 }
 .medbooks-subtitle {
   font: 600 24px "Circe Light";
@@ -198,7 +198,6 @@ body {
 .text-list {
   display: block;
   line-height: 18px;
-  margin-bottom: 30px;
 }
 .text-list > li {
   padding-left: 25px;
@@ -219,4 +218,8 @@ body {
   font: 100 16px "Circe Light";
   color: #323948;
   line-height: 1.2;
+}
+button.blue-button {
+  border: none;
+  font-family: "Circe";
 }

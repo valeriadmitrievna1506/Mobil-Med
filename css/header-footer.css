@@ -88,7 +88,7 @@ a {
 }
 .medbook-title {
   position: relative;
-  padding: 9px 40px 5px 35px;
+  padding: 6px 40px 5px 35px;
   font-size: 17px;
   font-weight: 100;
   color: rgb(34, 34, 34);
@@ -99,13 +99,19 @@ a {
   background-position-y: center;
   background-position-x: 90%;
 }
+.medbook-title, a.blue-button {
+  height: 37px;
+}
 
 .medbook {
   margin-right: 30px;
   font-family: "Circe Light";
+  position: relative;
 }
 .medbook-dropdown {
   position: absolute;
+  left: 0;
+  width: 100%;
   z-index: 5;
   flex-direction: column;
   display: none;
@@ -119,7 +125,7 @@ a {
   line-height: 1.5;
   color: #333333;
   text-align: center;
-  width: 163px;
+  width: 100%;
   background-color: #fff;
 }
 .medbook-dropdown > a:hover {
@@ -226,11 +232,12 @@ a {
 .header-nav > ul > li::after {
   content: "";
   display: inline-block;
-  height: 21px;
+  height: calc(100% - 50%);
   width: 1px;
-  position: relative;
-  right: -13px;
-  background: #299ddb;
+  top: 25%;
+  position: absolute;
+  right: -2px;
+  background: #64c3f6;
   vertical-align: middle;
 }
 .header-nav > ul > li:last-of-type::after {
@@ -330,9 +337,13 @@ footer {
 @media (max-width: 1230px) {
   .header-nav > ul > li {
     padding: 15px 8px 15px;
-    padding-left: 14px;
+    padding-left: 10px;
     font-size: 13px;
     margin: 0;
+  }
+  .header-nav > ul > li::after {
+    right: 0px;
+    width: 0.5px;
   }
   .phone-icon {
     margin-left: 15px;
@@ -347,7 +358,7 @@ footer {
     background-position: 20px center;
   }
   .medbook-title {
-    padding: 9px 20px 5px 15px;
+    padding: 7px 20px 5px 15px;
     font-size: 12px;
     height: 35px;
     width: 110px;
@@ -356,6 +367,9 @@ footer {
     width: 135px;
     text-align: center;
     font-size: 12px;
+    height: 35px;
+  }
+  .medbook-title, a.blue-button {
     height: 35px;
   }
 }
@@ -367,15 +381,12 @@ footer {
     font-size: 19px;
   }
   .header-nav > ul > li {
-    padding: 11px 4px;
-    padding-left: 10px;
+    padding: 11px 6px;
     font-size: 13px;
   }
   .header-nav > ul > li::after {
-    position: relative;
-    right: -6px;
-    background: #299ddb;
-    vertical-align: middle;
+    right: 1px;
+    width: 0.5px;
   }
   .phone-icon {
     margin-left: 15px;
@@ -435,9 +446,6 @@ footer {
   footer {
     padding-top: 20px;
     padding-left: 30px;
-  }
-  .footer-column:nth-of-type(2) {
-    order: -1;
   }
   .footer {
     flex-wrap: wrap;
@@ -506,9 +514,6 @@ footer {
   .header-number-block:last-of-type {
     margin-right: 20%;
   }
-  .medbook-dropdown {
-    width: 47%;
-  }
   .medbook-dropdown > a {
     width: 100%;
   }
@@ -571,7 +576,7 @@ footer {
 
   /* ******************************************************************* */
 
-  .header-top-mobile > .container > img:first-of-type {
+  .header-top-mobile > .container > a > img{
     height: 40px;
   }
   .header-top-mobile > .container {
@@ -589,6 +594,7 @@ footer {
   }
   .header-middle-main {
     flex-wrap: wrap;
+    vertical-align: middle;
   }
   .medbook-title {
     padding: 5px 35px;
@@ -625,17 +631,51 @@ footer {
     border: none;
   }
   .header-number {
-    font-size: 100%;
+    font-size: 12px;
   }
   .header-number-subtitle {
     font-size: 11px;
+    line-height: 1.2;
   }
   .header-number-block > * > br {
     display: inline-block;
   }
+}
 
-  /* ******************************************************************* */
+@media (max-width: 380px) {
+  .menu-burger > img {
+    width: 35px;
+    height: 35px;
+    margin-top: 3px;
+  }
+  .header-top-mobile > .container > a > img:first-of-type {
+    height: 30px;
+  }
+  .header-top-mobile > .container {
+    padding: 0;
+  }
+  .search-form-input::placeholder {
+    font-size: 14px;
+  }
+}
 
+@media (max-width: 305px) {
+  .medbook, .header-middle-main > .blue-button {
+    flex-basis: 100%;
+  }
+  .phone-icon {
+    display: none;
+  }
+  .header-number-block {
+    margin-right: 5%!important;
+    flex-basis: auto;
+  }
+  .hnb-first {
+    margin-left: 5%!important;
+  }
+  .footer-column {
+    flex-basis: 100%!important;
+  }
 }
 
 

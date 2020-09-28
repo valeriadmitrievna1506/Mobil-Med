@@ -315,6 +315,11 @@
 #map {
     flex-basis: 52%;
     height: 600px!important;
+    width: 100%!important;
   }
+#map > *, #map > * > * {
+    width: 100%;
+    height: 100%;
+}
 
 /* ******************************************************************* */
