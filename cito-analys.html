@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/circe.css" />
+
+    <link rel="stylesheet" href="./css/analysis-page.css" />
+    <link rel="stylesheet" href="./css/mobile-analysis.css" />
+
+    <link rel="stylesheet" href="./css/header-footer.css" />
+    <link rel="stylesheet" href="./css/cito-analys.css" />
+    <link rel="stylesheet" href="./css/mobile-cito-analys.css">
+
+    <title>Анализ</title>
+  </head>
+  <body>
+    <header>
+      <section class="header-top-mobile">
+        <div class="container">
+          <a href="./mobilmed-main.html"
+            ><img src="./images/Logo.svg" alt="Mobil Med"
+          /></a>
+          <div class="menu-burger">
+            <img
+              src="./images/burger-menu.svg"
+              alt="Меню"
+              id="menu-burger"
+              style="position: relative"
+            />
+            <div id="dropdown-burger">
+              <div class="dropdown-burger">
+                <a href="#" style="color: #fff" class="burger-user-account"
+                  >Личный кабинет</a
+                >
+                <a href="./mobilmed-analysis.html" style="color: #fff"
+                  >Анализы</a
+                >
+                <a href="#" style="color: #fff">Медкнижка</a>
+                <a href="#" style="color: #fff">Профосмотры</a>
+                <a href="#" style="color: #fff">Гинекология</a>
+                <a href="#" style="color: #fff">УЗИ, ЭКГ, ФЛГ</a>
+                <a href="#" style="color: #fff">Выездные медкомиссии</a>
+                <a href="#" style="color: #fff">Сотрудничество</a>
+                <a href="#" style="color: #fff">Поиск</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="header-top">
+        <div class="container">
+          <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Лицензии и сетификаты</a></li>
+            <li><a href="#">История компании</a></li>
+            <li><a href="#">Цифры и факты</a></li>
+            <li><a href="#">Наши Партнеры</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="header-middle">
+        <div class="container header-middle-cont">
+          <img
+            src="./images/Logo.svg"
+            alt="MobilMed Logo"
+            style="vertical-align: middle"
+          />
+          <div class="header-middle-main">
+            <div class="medbook">
+              <div class="medbook-title">Медкнижка</div>
+              <div class="medbook-dropdown">
+                <a>Проверить статус</a>
+                <a>Проверить книжку</a>
+              </div>
+            </div>
+            <a href="#" class="blue-button">Запись on-line</a>
+            <div class="phone-icon">
+              <img src="./images/engIcon-phone.svg" />
+            </div>
+            <div class="header-number-block hnb-first">
+              <p class="header-number">+7 (495) 781-000-3</p>
+              <p class="header-number-subtitle">
+                Единый номер<br />
+                Контакт-Центра
+              </p>
+            </div>
+            <div class="header-number-block">
+              <p class="header-number">8 800 510 000 3</p>
+              <p class="header-number-subtitle">
+                Звонок по России –<br />Бесплатный
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="header-menu">
+        <div class="container">
+          <nav class="header-nav">
+            <ul>
+              <li>
+                <a href="./mobilmed-analysis.html">Анализы</a>
+                <ul class="header-nav-dropdown">
+                  <li>
+                    <a href="./mobilmed-analysis.html"
+                      >Анализы по видам<br />исследований</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Анализы по органам</a>
+                  </li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Анализы по категориям</a>
+                  </li>
+                  <li><a href="./mobilmed-analysis.html">CITO анализы</a></li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Срочные анализы</a>
+                  </li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Узнать результаты</a>
+                  </li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Где сдать анализы</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Медкнижка</a>
+                <ul class="header-nav-dropdown">
+                  <li><a href="">Цены</a></li>
+                  <li><a href="">Об услуге</a></li>
+                  <li><a href="">Как пройти врачей</a></li>
+                  <li><a href="">Продлить медкнижку</a></li>
+                  <li><a href="">Оформить новую медкнижку</a></li>
+                  <li><a href="">Полный прайслист на услуги</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Профосмотры</a>
+                <ul class="header-nav-dropdown">
+                  <li><a href="">Цены</a></li>
+                  <li><a href="">Об услуге</a></li>
+                  <li><a href="">Паспорт здоровья</a></li>
+                  <li><a href="">Как провести профосмотр</a></li>
+                  <li><a href="">Документация</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Гинекология</a>
+                <ul class="header-nav-dropdown">
+                  <li><a href="">Об услуге</a></li>
+                  <li><a href="">Программы</a></li>
+                  <li><a href="">Прайс</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">УЗИ, ЭКГ, ФЛГ</a>
+              </li>
+              <li>
+                <a href="#">Выездные медкомиссии</a>
+              </li>
+              <li>
+                <a href="#">Сотрудничество</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="user-account"><a href="#">Личный кабинет</a></li>
+              <li class="nav-search">
+                <img src="./images/engIcon-search.svg" />
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="analysis-search">
+        <div class="container">
+          <h1>АНАЛИЗЫ МОБИЛМЕД</h1>
+          <form class="search-form">
+            <input
+              type="text"
+              class="search-form-input"
+              placeholder="Введите название анализа"
+            />
+            <button class="search-form-btn">
+              <img src="./images/search-icon.svg" alt="" />
+            </button>
+            <div class="search-dropdown">
+              <div class="search-card">
+                <a href="#" class="search-card-name"
+                  >Протромбин (время, по Квику, МНО) ПТИ</a
+                >
+                <p>03.00.002</p>
+                <p>1 д.</p>
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">185</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">215 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <div class="search-card">
+                <a href="#" class="search-card-name">
+                  17-кетостероиды (андростерон, андростендион, ДГЭА,
+                  этиохоланолон, эпиандростерон)
+                </a>
+                <p>03.00.002</p>
+                <p>1 д.</p>
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">13 000</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">21 700 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <div class="search-card">
+                <a href="#" class="search-card-name">
+                  17-кетостероиды (андростерон, андростендион, ДГЭА,
+                  этиохоланолон, эпиандростерон)
+                </a>
+                <p>03.00.002</p>
+                <p>1 д.</p>
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">13 000</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">21 700 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <div class="search-card">
+                <a href="#" class="search-card-name">
+                  17-кетостероиды (андростерон, андростендион, ДГЭА,
+                  этиохоланолон, эпиандростерон)
+                </a>
+                <p>03.00.002</p>
+                <p>1 д.</p>
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">13 000</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">21 700 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <div class="search-card">
+                <a href="#" class="search-card-name">
+                  17-кетостероиды (андростерон, андростендион, ДГЭА,
+                  этиохоланолон, эпиандростерон)
+                </a>
+                <p>03.00.002</p>
+                <p>1 д.</p>
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">13 000</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">21 700 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <div class="search-card">
+                <a href="#" class="search-card-name">
+                  17-кетостероиды (андростерон, андростендион, ДГЭА,
+                  этиохоланолон, эпиандростерон)
+                </a>
+                <p>03.00.002</p>
+                <p>1 д.</p>
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">13 000</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">21 700 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <a href="#" class="search-card-name">Показать все 100</a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="analys-area">
+        <div class="container">
+          <div class="textArea">
+            <p class="section-title">
+              Посев на микрофлору отделяемого урогенитального тракта мужчины с
+              идентификацией микроорганизмов, в т.ч. кандида и определением
+              чувствительности к основному спектру антибиотиков, антимикотиков и
+              бактериофагам
+            </p>
+            <div class="hide-price-block">
+              <div class="textPrice">
+                <p>230 руб</p>
+                <p>175</p>
+                <p>руб</p>
+              </div>
+              <div class="buy-button" title="Исследование временнно не выполняется. Приносим наши извинения.">
+                <img src="./images/cart-icon-white.svg">
+                <p>Добавить в корзину</p>
+              </div>
+            </div>
+            <ul class="analys-subtext">
+              <li>Код: 01.00.003</li>
+              <li>Биоматериал: кровь с EDTA</li>
+              <li>Срок: 1 день</li>
+              <li>
+                При сдаче биоматериала до 10:00 результат в день обращения!
+              </li>
+            </ul>
+
+            <div class="citoItems">
+              <div
+                class="citoPicture"
+                style="background-color: rgb(73, 138, 223)"
+              ></div>
+              <div
+                class="citoPicture"
+                style="background-color: rgb(73, 138, 223)"
+              ></div>
+              <div
+                class="citoPicture"
+                style="background-color: rgb(73, 138, 223)"
+              ></div>
+              <div
+                class="citoPicture"
+                style="background-color: rgb(73, 138, 223)"
+              ></div>
+            </div>
+
+            <nav class="text-tabs">
+              <ul>
+                <li class="selected-tab" id="tab-1">Описание</li>
+                <li id="tab-2">Подготовка</li>
+                <li id="tab-3">Органичения</li>
+                <li id="tab-4">Входит в состав</li>
+                <li id="tab-5">Пример результатов</li>
+              </ul>
+            </nav>
+
+            <div class="analys-text">
+              <p>
+                Аланинаминотрансфераза (АЛТ, АлАТ) - это фермент, содержащийся в
+                значительном количестве в клетках печени и почек. Более низкая
+                его активность выявляется в сердце и мускулатуре. Основная
+                функция AЛТ заключается в трансформации аминокислоты аланина в
+                пируват, основной продукт энергетического обмена клетки. При
+                повреждении клеток печени, АЛТ высвобождается в кровь, рост
+                уровня этого фермента в крови опережает такой явный признак
+                поражения печени, как желтуха.
+              </p>
+              <p>
+                В каких случаях обычно назначают исследование АЛТ?<br />
+                Чаще всего это исследование назначается при признаках
+                повреждения печени. AЛТ и АСТ (называемые еще «печеночными
+                трансаминазами») считаются одними из наиболее важных тестов для
+                выявления заболевания печени, хотя AЛТ более специфичен для
+                печени, чем AСТ. Нередко врачи рассчитывают соотношение AСТ /
+                AЛТ – коэффициент де Ритис. Это соотношение может использоваться
+                для дифференцировки причин повреждения печени и для
+                распознавания повреждения миокарда или патологии мышц.
+              </p>
+              <p>
+                Наиболее часто используемая комбинация тестов при патологии
+                печени это АСТ, АЛТ, фракции билирубина, ГГТ, ЩФ и альбумин или
+                общий белок.
+              </p>
+            </div>
+          </div>
+          <div class="buyArea">
+              <div class="price-block">
+                <div class="textPrice">
+                  <p>230 руб</p>
+                  <p>175</p>
+                  <p>руб</p>
+              </div>
+              <div class="buy-button" title="Исследование временнно не выполняется. Приносим наши извинения.">
+                  <img src="./images/cart-icon-white.svg">
+                  <p>Добавить в корзину</p>
+              </div>
+              <ul class="analys-subtext">
+                  <li>Цена указана без взятия биоматериала.</li>
+                  <li>Скидка действует только при оформлении заказа через сайт.</li>
+              </ul>
+              </div>
+              <p class="adress-text">Адрес ближайшего медцентра:</p>
+              <p class="adress-text">ул. Новослободская, д. 36/1, стр. 3</p>
+
+              <p>С этим исследованием часто назначают:</p>
+              <div class="search-card">
+                <a href="#" class="search-card-name"
+                  >Протромбин (время, по Квику, МНО)</a
+                >
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">175</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">175 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <div class="search-card">
+                <a href="#" class="search-card-name"
+                  >Протромбин (время, по Квику, МНО)</a
+                >
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">175</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">175 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <div class="search-card">
+                <a href="#" class="search-card-name"
+                  >Протромбин (время, по Квику, МНО)</a
+                >
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">175</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">175 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <div class="search-card">
+                <a href="#" class="search-card-name"
+                  >Протромбин (время, по Квику, МНО)</a
+                >
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">175</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">175 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+              <div class="search-card">
+                <a href="#" class="search-card-name"
+                  >Протромбин (время, по Квику, МНО)</a
+                >
+                <div class="search-buy-block">
+                  <div>
+                    <div class="search-price">
+                      <p class="slider-item-price">175</p>
+                      <p class="small-price-text">руб.</p>
+                    </div>
+                    <p class="small-price-text">175 руб.</p>
+                  </div>
+                  <a href="#" class="busket"></a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer-column">
+            <div class="footer-column-block">
+              <p class="footer-title">Анализы</p>
+              <a href="#" class="footer-link">Цены на анализы</a>
+              <a href="#" class="footer-link">О лаборатории</a>
+              <a href="#" class="footer-link">Правила сдачи анализов (pdf)</a>
+              <a href="#" class="footer-link">Узнать результат</a>
+              <a href="#" class="footer-link">Где сдать анализы</a>
+            </div>
+            <div class="footer-column-block">
+              <p class="footer-title">Медкнижка</p>
+              <a href="#" class="footer-link">Об услуге</a>
+              <a href="#" class="footer-link">Стоимость</a>
+              <a href="#" class="footer-link">Как пройти врачей</a>
+              <a href="#" class="footer-link">Продлить медкнижку</a>
+            </div>
+            <div class="footer-column footer-column-block">
+              <div class="header-number-block footer-number-block">
+                <p class="header-number">+7 (495) 162-90-21</p>
+                <p class="header-number-subtitle">
+                  Единый номер Контакт-Центра
+                </p>
+              </div>
+              <div class="social-links">
+                <a href="https://www.instagram.com/mobil_med/"
+                  ><img src="./images/inst.png" alt=""
+                /></a>
+                <a href="https://vk.com/club19541355"
+                  ><img src="./images/vk.png" alt=""
+                /></a>
+                <a href="https://www.facebook.com/medknijka/"
+                  ><img src="./images/fb.png" alt=""
+                /></a>
+                <a href="https://ok.ru/group/55080573599745"
+                  ><img src="./images/ok.png" alt=""
+                /></a>
+              </div>
+              <p class="footer-link">8 495 156 16 80</p>
+            </div>
+          </div>
+          <div class="footer-column">
+            <div class="footer-column-block">
+              <p class="footer-title">Профосмотры</p>
+              <a href="#" class="footer-link">Как провести профосмотр</a>
+              <a href="#" class="footer-link">Паспорт здоровья</a>
+              <a href="#" class="footer-link">Стоимость</a>
+            </div>
+            <div class="footer-column-block">
+              <p class="footer-title">Гинекология</p>
+              <a href="#" class="footer-link">Услуги гинекологии</a>
+              <a href="#" class="footer-link">Стоимость</a>
+            </div>
+            <div class="footer-column-block">
+              <p class="footer-title">Выездные комиссии</p>
+              <a href="#" class="footer-link">Профосмотр на предприятии</a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <div class="footer-column-block">
+              <p class="footer-title">МобилМед</p>
+              <a href="#" class="footer-link">О компании</a>
+              <a href="#" class="footer-link">История</a>
+              <a href="#" class="footer-link">Лицензии и сертификаты</a>
+              <a href="#" class="footer-link">Цифры и факты</a>
+              <a href="#" class="footer-link">Наши партнеры</a>
+              <a href="#" class="footer-link">Вакансии</a>
+              <a href="#" class="footer-link">Адреса</a>
+              <a href="#" class="footer-link"
+                >Ограничение приема некоторых<br />анализов в праздники</a
+              >
+            </div>
+          </div>
+          <div class="footer-column">
+            <div class="header-number-block footer-number-block">
+              <p class="header-number">+7 (495) 162-90-21</p>
+              <p class="header-number-subtitle">Единый номер Контакт-Центра</p>
+            </div>
+            <div class="social-links">
+              <a href="https://www.instagram.com/mobil_med/"
+                ><img src="./images/inst.png" alt=""
+              /></a>
+              <a href="https://vk.com/club19541355"
+                ><img src="./images/vk.png" alt=""
+              /></a>
+              <a href="https://www.facebook.com/medknijka/"
+                ><img src="./images/fb.png" alt=""
+              /></a>
+              <a href="https://ok.ru/group/55080573599745"
+                ><img src="./images/ok.png" alt=""
+              /></a>
+            </div>
+            <p class="footer-link">8 495 156 16 80</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/cito-analys.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

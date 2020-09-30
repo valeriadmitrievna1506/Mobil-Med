@@ -1,0 +1,89 @@
+.hide-price-block {
+    display: none;
+}
+@media (max-width: 910px) {
+    .citoItems {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .citoPicture {
+        flex-basis: 49%;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .text-tabs > ul > li {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .textPrice {
+        font-size: 18px;
+    }
+    .textPrice > p:nth-of-type(2) {
+        font-size: 32px;
+    }
+    .buy-button > img {
+        width: 30px;
+    }
+    .buy-button {
+        font-size: 16px;
+        height: 35px;
+    }
+    .buyArea > p:last-of-type, .adress-text:first-of-type {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 730px) {
+    .analys-area > .container {
+        flex-wrap: wrap;
+    }
+    .textArea, .buyArea {
+        flex-basis: 100%;
+    }
+    .citoItems {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    .citoPicture {
+        margin: 20px 0;
+        flex-basis: 23%;
+        height: 120px;
+    }
+    .textArea {
+        padding: 0;
+        box-shadow: 0px 12px 10px -10px rgba(0,0,0,0.1); 
+        margin-bottom: 10px;
+    }
+    .price-block {
+        display: none;
+    }
+    .hide-price-block {
+        display: block;
+    }
+}
+
+@media (max-width: 630px) {
+    .citoPicture {
+        height: 90px;
+    }
+    .text-tabs {
+        width: 100%;
+    }
+    .text-tabs > ul {
+        overflow: auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .citoItems {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .citoPicture {
+        flex-basis: 49%;
+        margin: 0;
+        margin-bottom: 5px;
+        height: 120px;
+    }
+}

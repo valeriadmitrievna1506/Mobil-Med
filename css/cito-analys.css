@@ -1,0 +1,157 @@
+main > section:first-of-type {
+    margin-bottom: 30px;
+}
+/* *************************************************** */
+.section-title {
+    text-align: left;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+main {
+    color: #404E55;
+}
+/* *************************************************** */
+/* *************************************************** */
+/* *************************************************** */
+.analys-area > .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.textArea {
+    flex-basis: 65%;
+    box-shadow: 10px 0px 10px -10px rgba(0,0,0,0.25);
+    padding-right: 15px;
+}
+.analys-subtext {
+    display: block;
+    font-size: 12px;
+    line-height: 1.1;
+}
+/* *************************************************** */
+.citoItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.citoPicture {
+    margin: 20px 0;
+    flex-basis: 23%;
+    height: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+/* *************************************************** */
+.text-tabs {
+    border-bottom: 1px solid #0085CE;
+    margin-bottom: 15px;
+}
+.text-tabs > ul {
+    justify-content: space-between;
+}
+.text-tabs > ul > li {
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+.text-tabs > ul > li:nth-of-type(3) {
+    color: red!important;
+}
+.selected-tab, .text-tabs > ul > li:hover {
+    outline: none;
+    color: #0085ce;
+    box-shadow: inset 0px -1.5px 0px 0px #0085ce;
+}
+/* *************************************************** */
+.analys-text > p {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+/* *************************************************** */
+/* *************************************************** */
+.buyArea {
+    flex-basis: 33%;
+}
+.textPrice {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    line-height: 1;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.textPrice > p:first-of-type {
+    text-decoration: line-through;
+    margin-right: 15px;
+}
+.textPrice > p:nth-of-type(2) {
+    font-size: 36px;
+    color: #0085CE;
+    font-family: 'Circe ExtraBold';
+    margin-right: 10px;
+}
+/* *************************************************** */
+.buy-button {
+    cursor: pointer;
+    background-color: #ccc;
+    white-space: nowrap;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+/* *************************************************** */
+.adress-text {
+    font-size: 13px;
+    text-align: right;
+    line-height: 1.3;
+}
+.adress-text:first-of-type {
+    color: #0085ce!important;
+    font-size: 15px;
+    margin-top: 60px;
+}
+.buyArea > p:last-of-type {
+    color: #0085ce!important;
+    line-height: 1.3;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+/* *************************************************** */
+.search-card {
+    border: none;
+    border-top: 1px solid #0085CE;
+    margin: 0;
+}
+.search-card-name {
+    font-size: 13px;
+    line-height: 1.3;
+}
+.slider-item-price {
+    font-size: 15px;
+}
+.search-price, .small-price-text {
+    line-height: 1.2;
+}
+.busket {
+    width: 20px;
+    height: 20px;
+    background-position: 4px 6px;
+    background-size: 15px;
+}
