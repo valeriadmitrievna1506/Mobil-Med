@@ -285,6 +285,7 @@
     flex-wrap: wrap;
 }
 .research-item {
+    cursor: pointer;
     flex-basis: 30%;
     background-repeat: no-repeat;
     background-size: 28px 28px;
