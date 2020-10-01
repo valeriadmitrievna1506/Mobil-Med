@@ -168,6 +168,9 @@ main {
 /* *************************************************** */
 /* ***************** vhodit v sostav ***************** */
 /* *************************************************** */
+.analys-text > .search-card > div {
+    flex-basis: 70%;
+}
 .analys-text > .search-card > div > .search-card-name:first-of-type {
     font-size: 13px;
 }
@@ -178,6 +181,9 @@ main {
     font-size: 9px;
     line-height: 15px;
     text-decoration: line-through;
+}
+.analys-text > .search-card > .search-price {
+    flex-basis: 15%;
 }
 .analys-text > div > div > .slider-item-price {
     font-size: 13px;
@@ -194,4 +200,7 @@ main {
 /* *************************************************** */
 #text-5 {
     text-align: center;
+}
+#text-5 > img {
+    width: 40%;
 }
