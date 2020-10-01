@@ -11,10 +11,6 @@
         margin: 0;
         margin-bottom: 5px;
     }
-    .text-tabs > ul > li {
-        font-size: 12px;
-        padding: 5px;
-    }
     .textPrice {
         font-size: 18px;
     }
@@ -32,7 +28,7 @@
         margin-top: 40px;
     }
 }
-@media (max-width: 730px) {
+@media (max-width: 830px) {
     .analys-area > .container {
         flex-wrap: wrap;
     }
@@ -50,10 +46,14 @@
         flex-basis: 23%;
         height: 120px;
     }
+    .text-tabs > ul{
+        overflow-y: auto;
+    }
     .textArea {
         padding: 0;
         box-shadow: 0px 12px 10px -10px rgba(0,0,0,0.1); 
         margin-bottom: 10px;
+        overflow: hidden;
     }
     .price-block {
         display: none;
@@ -67,12 +67,6 @@
     .citoPicture {
         height: 90px;
     }
-    .text-tabs {
-        width: 100%;
-    }
-    .text-tabs > ul {
-        overflow: auto;
-    }
 }
 
 @media (max-width: 520px) {
@@ -85,5 +79,25 @@
         margin: 0;
         margin-bottom: 5px;
         height: 120px;
+    }
+}
+
+@media (max-width: 360px) {
+    .citoPicture {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+        height: 190px;
+    }
+}
+
+@media (max-width: 280px) {
+    .section-title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 240px) {
+    .citoPicture {
+        height: 150px;
     }
 }

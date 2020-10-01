@@ -694,6 +694,12 @@ footer {
   .footer-column {
     flex-basis: 100%!important;
   }
+  .header-top-mobile > .container > a {
+    height: 20px!important;
+  }
+  .header-top-mobile > .container > a > img:first-of-type {
+    height: 20px;
+  }
 }
 
 

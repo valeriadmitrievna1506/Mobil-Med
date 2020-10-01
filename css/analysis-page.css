@@ -60,6 +60,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #c5c5c5;
+    line-height: 1.2;
 }
 .search-card-name {
     flex-basis: 60%;
@@ -81,9 +82,10 @@
 }
 .search-buy-block, .search-price {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: flex-end;
     text-align: right;
+    line-height: 1.1;
 }
 .small-price-text {
     font-size: 12px;
