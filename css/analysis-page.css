@@ -193,13 +193,12 @@
     border-bottom: 1px solid #0085CE;
 }
 .slider-item-info > p {
-    height: 18px;
     padding-left: 20px;
 }
 .slider-analysis-material {
     background-image: url(../images/analysis-icon-1.svg);
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left top;
     margin-bottom: 5px;
 }
 .slider-analysis-time {
