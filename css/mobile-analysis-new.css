@@ -1,0 +1,72 @@
+@media (max-width: 1050px) {
+    .text {
+        flex-basis: 80%;
+    }
+    .price {
+        flex-basis: 20%;
+    }
+}
+@media (max-width: 920px) {
+    .price {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 760px) {
+    .analysis-group {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .search > .container > input {
+        width: 40%;
+    }
+    .search > .container > button {
+        width: 12%;
+    }
+    .search > .container > input::placeholder {
+        font-size: medium;
+    }
+}
+@media (max-width: 600px) {
+    .search > .container > input {
+        width: 60%;
+    }
+    .search > .container > button {
+        width: 15%;
+    }
+}
+@media (max-width: 460px) {
+    .search > .container > input {
+        width: 70%;
+    }
+    .search > .container > button {
+        width: 20%;
+    }
+    .analysis-group {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .text {
+        flex-basis: 85%;
+    }
+    .price {
+        flex-basis: 15%;
+    }
+}
+@media (max-width: 300px) {
+    .text {
+        flex-basis: 80%;
+    }
+    .price {
+        flex-basis: 20%;
+    }
+    .search > .container > * {
+        padding: 5px;
+        font-size: 13px;
+    }
+    .search > .container > input {
+        width: 75%;
+    }
+    .search > .container > button {
+        width: 25%;
+    }
+}
