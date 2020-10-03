@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    font-family: 'Circe';
+    font-size: xx-large;
+    margin: 20% auto;
+    width: 60%;
+    text-align: center;
+}
