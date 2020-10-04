@@ -1,0 +1,227 @@
+main {
+  color: #404e55;
+}
+main > div > nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0;
+  background-color: #e2e6e8;
+  border-radius: 8px;
+}
+main > div > nav > p {
+  font-size: 15px;
+  color: #404e55;
+  transition: 0.3s;
+  padding: 20px 75px 20px 25px;
+}
+main > div > nav > p:first-of-type {
+  background-image: url(../images/border-arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+main > div > nav > p:last-of-type {
+  opacity: 0.5;
+}
+/* *********************************************************** */
+/* *********************************************************** */
+/* *********************************************************** */
+.basketSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.table {
+  flex-basis: 65%;
+  box-shadow: 10px 0px 10px -10px rgba(0, 0, 0, 0.25);
+  align-self: stretch;
+  padding-right: 30px;
+  text-align: center;
+}
+.thead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1.2;
+  border-bottom: 1px solid #8ec8e7;
+  padding: 0 0 10px 0;
+  flex-grow: 1;
+}
+.tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e6e8;
+  flex-grow: 1;
+}
+.tr > div,
+.price-up,
+.total-cost,
+.total-parameters > div,
+.payment > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price-up,
+.total-cost {
+  align-items: baseline;
+}
+.tr > div, .thead > p:last-of-type {
+  flex-basis: 20%;
+}
+.tr > div {
+  justify-content: flex-end;
+}
+.close {
+  cursor: pointer;
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #0085ce;
+  background-image: url(../images/close-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center center;
+  transition: 0.3s;
+}
+/* *********************************************************** */
+.thead > p {
+  font-size: 15px;
+  line-height: 17px;
+  flex-basis: 15%;
+}
+.thead > p:first-of-type {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #0085ce;
+}
+.tr > p {
+  font-size: 11px;
+  flex-basis: 15%;
+}
+.tr > p:first-of-type {
+  font-size: 13px;
+}
+.thead > p:first-of-type,
+.tr > p:first-of-type {
+  flex-basis: 40%;
+  text-align: left;
+}
+.price-up > p:first-of-type {
+  font-size: 18px;
+  color: #0085ce;
+  font-family: "Circe ExtraBold";
+  margin-right: 5px;
+}
+.price > p {
+  color: #404e55;
+  text-decoration: line-through;
+  line-height: 1;
+}
+.tr:hover > p:first-of-type {
+  color: #0085ce;
+}
+.close:hover {
+  background-color: #ffd300;
+}
+/* *********************************************************** */
+/* *********************************************************** */
+.total {
+  flex-basis: 33%;
+}
+.total-cost {
+  width: 100%;
+}
+.total-cost > p {
+  font-size: 22px;
+}
+.total-cost > p:first-of-type {
+  flex-basis: 50%;
+}
+.totalCostFinal {
+  font-size: 36px !important;
+  color: #0085ce;
+  font-family: "Circe ExtraBold";
+}
+/* *********************************************************** */
+.total-parameters {
+  margin-top: 30px;
+}
+.total-parameters > div > p {
+  font-size: 16px;
+}
+.totalCost {
+  text-decoration: line-through;
+}
+.total-parameters > div:last-of-type > p {
+  color: #0085ce;
+}
+.payment {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.payment > a {
+  width: 49%;
+  background-color: #e2e6e8;
+  padding: 12px 12px;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+.payment > a > p {
+  line-height: 1.1;
+  font-size: 17px;
+  color: #404e55;
+  flex-basis: 70%;
+}
+.payment > a > .img {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.payment > a:first-of-type > .img {
+  height: 35px;
+  width: 35px;
+  background-image: url(../images/ruble-2.png);
+}
+.payment > a:last-of-type > .img {
+  height: 35px;
+  width: 40px;
+  background-image: url(../images/paycard-1.png);
+}
+.payment > a:hover {
+  background-color: #0085ce;
+}
+.payment > a:hover > p {
+  color: #fff;
+}
+.payment > a:first-of-type:hover > .img {
+  background-image: url(../images/ruble-1.png) !important;
+}
+.payment > a:last-of-type:hover > .img {
+  background-image: url(../images/paycard-2.png) !important;
+}
+/* *********************************************************** */
+.button {
+    margin-top: 20px;
+    border: none;
+    background-color: #0085CE;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 30px;
+    transition: all 0.3s;
+    border-radius: 8px;
+}
+.button:hover {
+    color: #0085CE;
+    background-color: #ffd300;
+}

@@ -1,0 +1,171 @@
+@media (max-width: 1150px) {
+    .thead > p, .tr > p {
+        flex-basis: 10%;
+      }
+      .tr > div, .thead > p:last-of-type {
+          flex-basis: 30%;
+      }
+}
+
+@media (max-width: 915px) {
+    main > div > nav > p {
+        padding: 15px 70px 15px 20px;
+    }
+    .total-cost > p:first-of-type {
+        flex-basis: 15%;
+    }
+    .payment > a {
+        flex-basis: 100%;
+        margin-bottom: 5px;
+    }
+    .payment > a > .img  {
+        margin-left: 5%;
+    }
+    .button {
+        padding: 15px 15px;
+        line-height: 1;
+    }
+    .totalCostFinal {
+        font-size: 30px!important;
+    }
+}
+
+@media (max-width: 700px) {
+      .payment > a {
+        padding: 8px;
+        transition: 0.3s;
+        border-radius: 8px;
+      }
+      .payment > a > p {
+        line-height: 1;
+        font-size: 15px;
+        flex-basis: 75%;
+      }
+      .payment > a:first-of-type > .img {
+        height: 30px;
+        width: 30px;
+      }
+      .payment > a:last-of-type > .img {
+        height: 30px;
+        width: 35px;
+      }
+      .total-cost > p {
+        font-size: 18px;
+      }
+}
+
+@media (max-width: 650px) {
+    .table, .total {
+        flex-basis: 100%;
+      }
+    .table {
+        padding: 0;
+        box-shadow: 0px 12px 10px -10px rgba(0,0,0,0.1); 
+        margin-bottom: 10px;
+    }
+    .total-cost {
+        width: 50%;
+    }
+    .total-cost > p:first-of-type {
+        flex-basis: 50%;
+    }
+    .payment > a {
+        flex-basis: 49%;
+        padding: 12px 12px;
+      }
+      .payment > a > p {
+        line-height: 1.1;
+        font-size: 17px;
+      }
+      .payment > a:first-of-type > .img {
+        height: 35px;
+        width: 35px;
+      }
+      .payment > a:last-of-type > .img {
+        height: 35px;
+        width: 40px;
+      }
+      .button {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+}
+@media (max-width: 560px) {
+    .total-cost > p:first-of-type {
+        flex-basis: 30%;
+    }
+}
+@media (max-width: 460px) {
+    main > div > nav > p {
+        padding: 10px 30px 10px 15px;
+    }
+}
+
+@media (max-width: 390px) {
+    .tr > div {
+        justify-content: space-between;
+    }
+    .close {
+        margin: 0;
+        width: 20px;
+        height: 20px;
+        background-size: 50%;
+    }
+    .price-up > p:first-of-type {
+        font-size: 16px;
+    }
+    .price-up > p, .price > p {
+        font-size: 11px;
+    }
+    .payment > a {
+        flex-basis: 100%;
+        margin-bottom: 5px;
+    }
+    .payment > a > .img  {
+        margin-left: 5%;
+    }
+    .button {
+        padding: 15px 15px;
+        line-height: 1;
+    }
+    .total-cost {
+        width: 100%;
+    }
+    .total-cost > p:first-of-type {
+        flex-basis: 50%;
+    }
+}
+@media (max-width: 370px) {
+    main > div > nav {
+        flex-wrap: wrap;
+    }
+    main > div > nav > p {
+        flex-basis: 100%;
+        background-image: none!important;
+    }
+    .tr {
+        flex-wrap: wrap;
+    }
+    .thead > p:nth-of-type(2),
+    .thead > p:nth-of-type(3),
+    .thead > p:nth-of-type(4) {
+        display: none;
+    }
+    .tr > p:first-of-type {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .price {
+        display: flex;
+    }
+    .price > p {
+        order: -2;
+        margin-right: 5px;
+    }
+    .tr > div:first-of-type {
+        flex-basis: 60%;
+    }
+    .price {
+        align-items: baseline;
+    }
+}

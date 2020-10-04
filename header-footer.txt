@@ -1,0 +1,261 @@
+<header>
+      <section class="header-top-mobile">
+        <div class="container">
+          <a href="./mobilmed-main.html"
+            ><img src="./images/Logo.svg" alt="Mobil Med"
+          /></a>
+          <div class="menu-burger">
+            <img
+              src="./images/burger-menu.svg"
+              alt="Меню"
+              id="menu-burger"
+              style="position: relative"
+            />
+            <div id="dropdown-burger">
+              <div class="dropdown-burger">
+                <a href="#" style="color: #fff" class="burger-user-account"
+                  >Личный кабинет</a
+                >
+                <a href="./mobilmed-analysis.html" style="color: #fff"
+                  >Анализы</a
+                >
+                <a href="#" style="color: #fff">Медкнижка</a>
+                <a href="#" style="color: #fff">Профосмотры</a>
+                <a href="#" style="color: #fff">Гинекология</a>
+                <a href="#" style="color: #fff">УЗИ, ЭКГ, ФЛГ</a>
+                <a href="#" style="color: #fff">Выездные медкомиссии</a>
+                <a href="#" style="color: #fff">Сотрудничество</a>
+                <a href="#" style="color: #fff">Поиск</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="header-top">
+        <div class="container">
+          <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Лицензии и сетификаты</a></li>
+            <li><a href="#">История компании</a></li>
+            <li><a href="#">Цифры и факты</a></li>
+            <li><a href="#">Наши Партнеры</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Вакансии</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="header-middle">
+        <div class="container header-middle-cont">
+          <img
+            src="./images/Logo.svg"
+            alt="MobilMed Logo"
+            style="vertical-align: middle"
+          />
+          <div class="header-middle-main">
+            <div class="medbook">
+              <div class="medbook-title">Медкнижка</div>
+              <div class="medbook-dropdown">
+                <a>Проверить статус</a>
+                <a>Проверить книжку</a>
+              </div>
+            </div>
+            <a href="#" class="blue-button">Запись on-line</a>
+            <div class="phone-icon">
+              <img src="./images/engIcon-phone.svg" />
+            </div>
+            <div class="header-number-block hnb-first">
+              <p class="header-number">+7 (495) 781-000-3</p>
+              <p class="header-number-subtitle">
+                Единый номер<br />
+                Контакт-Центра
+              </p>
+            </div>
+            <div class="header-number-block">
+              <p class="header-number">8 800 510 000 3</p>
+              <p class="header-number-subtitle">
+                Звонок по России –<br />Бесплатный
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="header-menu">
+        <div class="container">
+          <nav class="header-nav">
+            <ul>
+              <li>
+                <a href="./mobilmed-analysis.html">Анализы</a>
+                <ul class="header-nav-dropdown">
+                  <li>
+                    <a href="./mobilmed-analysis.html"
+                      >Анализы по видам<br />исследований</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Анализы по органам</a>
+                  </li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Анализы по категориям</a>
+                  </li>
+                  <li><a href="./mobilmed-analysis.html">CITO анализы</a></li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Срочные анализы</a>
+                  </li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Узнать результаты</a>
+                  </li>
+                  <li>
+                    <a href="./mobilmed-analysis.html">Где сдать анализы</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Медкнижка</a>
+                <ul class="header-nav-dropdown">
+                  <li><a href="">Цены</a></li>
+                  <li><a href="">Об услуге</a></li>
+                  <li><a href="">Как пройти врачей</a></li>
+                  <li><a href="">Продлить медкнижку</a></li>
+                  <li><a href="">Оформить новую медкнижку</a></li>
+                  <li><a href="">Полный прайслист на услуги</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Профосмотры</a>
+                <ul class="header-nav-dropdown">
+                  <li><a href="">Цены</a></li>
+                  <li><a href="">Об услуге</a></li>
+                  <li><a href="">Паспорт здоровья</a></li>
+                  <li><a href="">Как провести профосмотр</a></li>
+                  <li><a href="">Документация</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Гинекология</a>
+                <ul class="header-nav-dropdown">
+                  <li><a href="">Об услуге</a></li>
+                  <li><a href="">Программы</a></li>
+                  <li><a href="">Прайс</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">УЗИ, ЭКГ, ФЛГ</a>
+              </li>
+              <li>
+                <a href="#">Выездные медкомиссии</a>
+              </li>
+              <li>
+                <a href="#">Сотрудничество</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="user-account"><a href="#">Личный кабинет</a></li>
+              <li class="nav-search">
+                <img src="./images/engIcon-search.svg" />
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+
+
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer-column">
+            <div class="footer-column-block">
+              <p class="footer-title">Анализы</p>
+              <a href="#" class="footer-link">Цены на анализы</a>
+              <a href="#" class="footer-link">О лаборатории</a>
+              <a href="#" class="footer-link">Правила сдачи анализов (pdf)</a>
+              <a href="#" class="footer-link">Узнать результат</a>
+              <a href="#" class="footer-link">Где сдать анализы</a>
+            </div>
+            <div class="footer-column-block">
+              <p class="footer-title">Медкнижка</p>
+              <a href="#" class="footer-link">Об услуге</a>
+              <a href="#" class="footer-link">Стоимость</a>
+              <a href="#" class="footer-link">Как пройти врачей</a>
+              <a href="#" class="footer-link">Продлить медкнижку</a>
+            </div>
+            <div class="footer-column footer-column-block">
+              <div class="header-number-block footer-number-block">
+                <p class="header-number">+7 (495) 162-90-21</p>
+                <p class="header-number-subtitle">
+                  Единый номер Контакт-Центра
+                </p>
+              </div>
+              <div class="social-links">
+                <a href="https://www.instagram.com/mobil_med/"
+                  ><img src="./images/inst.png" alt=""
+                /></a>
+                <a href="https://vk.com/club19541355"
+                  ><img src="./images/vk.png" alt=""
+                /></a>
+                <a href="https://www.facebook.com/medknijka/"
+                  ><img src="./images/fb.png" alt=""
+                /></a>
+                <a href="https://ok.ru/group/55080573599745"
+                  ><img src="./images/ok.png" alt=""
+                /></a>
+              </div>
+              <p class="footer-link">8 495 156 16 80</p>
+            </div>
+          </div>
+          <div class="footer-column">
+            <div class="footer-column-block">
+              <p class="footer-title">Профосмотры</p>
+              <a href="#" class="footer-link">Как провести профосмотр</a>
+              <a href="#" class="footer-link">Паспорт здоровья</a>
+              <a href="#" class="footer-link">Стоимость</a>
+            </div>
+            <div class="footer-column-block">
+              <p class="footer-title">Гинекология</p>
+              <a href="#" class="footer-link">Услуги гинекологии</a>
+              <a href="#" class="footer-link">Стоимость</a>
+            </div>
+            <div class="footer-column-block">
+              <p class="footer-title">Выездные комиссии</p>
+              <a href="#" class="footer-link">Профосмотр на предприятии</a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <div class="footer-column-block">
+              <p class="footer-title">МобилМед</p>
+              <a href="#" class="footer-link">О компании</a>
+              <a href="#" class="footer-link">История</a>
+              <a href="#" class="footer-link">Лицензии и сертификаты</a>
+              <a href="#" class="footer-link">Цифры и факты</a>
+              <a href="#" class="footer-link">Наши партнеры</a>
+              <a href="#" class="footer-link">Вакансии</a>
+              <a href="#" class="footer-link">Адреса</a>
+              <a href="#" class="footer-link"
+                >Ограничение приема некоторых<br />анализов в праздники</a
+              >
+            </div>
+          </div>
+          <div class="footer-column">
+            <div class="header-number-block footer-number-block">
+              <p class="header-number">+7 (495) 162-90-21</p>
+              <p class="header-number-subtitle">Единый номер Контакт-Центра</p>
+            </div>
+            <div class="social-links">
+              <a href="https://www.instagram.com/mobil_med/"
+                ><img src="./images/inst.png" alt=""
+              /></a>
+              <a href="https://vk.com/club19541355"
+                ><img src="./images/vk.png" alt=""
+              /></a>
+              <a href="https://www.facebook.com/medknijka/"
+                ><img src="./images/fb.png" alt=""
+              /></a>
+              <a href="https://ok.ru/group/55080573599745"
+                ><img src="./images/ok.png" alt=""
+              /></a>
+            </div>
+            <p class="footer-link">8 495 156 16 80</p>
+          </div>
+        </div>
+      </div>
+    </footer>
