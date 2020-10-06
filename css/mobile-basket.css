@@ -136,13 +136,17 @@
     }
 }
 @media (max-width: 370px) {
-    main > div > nav {
-        flex-wrap: wrap;
-    }
     main > div > nav > p {
-        flex-basis: 100%;
-        background-image: none!important;
+        padding: 5px 25px 5px 7px;
+        font-size: 13px;
     }
+    main > div > nav > p:first-of-type {
+        flex-basis: 45%;
+    }
+    main > div > nav > p:last-of-type {
+        flex-basis: 55%;
+    }
+
     .tr {
         flex-wrap: wrap;
     }

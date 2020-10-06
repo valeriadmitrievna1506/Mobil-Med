@@ -1,0 +1,145 @@
+@media (max-width: 750px) {
+  .buttons > button:first-of-type::before {
+    width: 20%;
+    height: 60%;
+    top: 15%;
+    left: 5%;
+    background-size: contain;
+  }
+  .buttons > button:first-of-type {
+    padding: 7px 30px 7px 60px;
+  }
+  .buttons > button:last-of-type::before {
+    width: 10%;
+    height: 60%;
+    top: 20%;
+    right: 5%;
+    background-size: contain;
+  }
+  .buttons > button:last-of-type {
+    padding: 7px 60px 7px 30px;
+  }
+  .row2 {
+    flex-wrap: wrap;
+  }
+  .row2 > div {
+    flex-basis: 100%;
+  }
+  .row2 > div:first-of-type {
+    margin-bottom: 10px;
+  }
+  .row2 > div > p,
+  .row > p {
+    flex-basis: 29%;
+  }
+  .row > select,
+  input {
+    flex-basis: 70%;
+  }
+  main > div > nav > p {
+    padding: 15px 65px 15px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .check-radio {
+    padding-left: 7%;
+  }
+  .row > p,
+  .row2 > div > p {
+    flex-basis: 25%;
+  }
+  .row > select,
+  .row > input,
+  .row2 > div > input {
+    flex-basis: 73%;
+  }
+  main > div > nav > p {
+    padding: 10px 45px 10px 13px;
+  }
+}
+
+@media (max-width: 435px) {
+  .buttons {
+    flex-direction: column-reverse;
+  }
+  .buttons > button {
+    width: 100%;
+  }
+  .buttons > button:first-of-type::before {
+    width: 28px;
+    height: 30px;
+    top: calc((100% - 30px) / 2);
+    left: 5%;
+    background-size: contain;
+  }
+  .buttons > button:last-of-type::before {
+    width: 28px;
+    height: 30px;
+    top: calc((100% - 30px) / 2);
+    right: 5%;
+    background-size: contain;
+  }
+  .buttons > button:last-of-type,
+  .buttons > button:first-of-type {
+    padding: 7px 30px 7px 30px;
+  }
+  main > div > nav > p {
+    padding: 10px 25px 10px 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .check-radio {
+    padding-left: 0;
+  }
+  .row,
+  .row2 > div {
+    flex-wrap: wrap;
+  }
+  select,
+  .row > p,
+  .row2 > div > p,
+  .row > input,
+  .row2 > div > input {
+    flex-basis: 100% !important;
+    width: 100% !important;
+  }
+  .row > p,
+  .row2 > div > p {
+    margin-bottom: 5px;
+  }
+  .check-radio > input {
+    flex-basis: 6% !important;
+  }
+  .check-radio > p {
+    flex-basis: 94% !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .check-radio > input {
+    flex-basis: 10% !important;
+  }
+  .check-radio > p {
+    flex-basis: 90% !important;
+  }
+  .buttons > button:last-of-type {
+    padding-left: 5% !important;
+    text-align: left;
+  }
+  .buttons > button:first-of-type {
+    padding-right: 5% !important;
+    text-align: right;
+  }
+  main > div > nav > p {
+    padding: 5px 25px 5px 7px;
+    font-size: 100%;
+  }
+  main > div > nav > p:first-of-type {
+    flex-basis: 45%;
+  }
+  main > div > nav > p:last-of-type {
+    flex-basis: 55%;
+  }
+}

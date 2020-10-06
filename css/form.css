@@ -1,0 +1,151 @@
+main {
+    color: #404e55;
+  }
+  main > div > nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0;
+    background-color: #e2e6e8;
+    border-radius: 8px;
+  }
+  main > div > nav > p {
+    font-size: 15px;
+    color: #404e55;
+    padding: 20px 75px 20px 25px;
+  }
+  main > div > nav > p:first-of-type {
+    background-image: url(../images/border-arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  main > div > nav > p:first-of-type {
+    opacity: 0.5;
+  }
+/* ********************************************************************* */
+/* ********************************************************************* */
+/* ********************************************************************* */
+form {
+    margin-bottom: 20px;
+}
+.row, .row2, .row2 > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.row > p, .row2 > div > p {
+    font-size: 14px;
+    flex-basis: 14%;
+}
+.row2 > div {
+    flex-basis: 47%;
+    margin: 0;
+}
+.row2 > div > p {
+    flex-basis: 40.3%;
+}
+select{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+input[type="time"]::-webkit-clear-button {
+    display: none;
+}
+.row > select, input {
+    border: 1px solid #0085ce;
+    flex-basis: 85%;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 13px 10px;
+}
+option {
+    outline: none;
+}
+.check-radio {
+    align-items: flex-start;
+    padding-left: 14%;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.check-radio > input {
+    flex-basis: 5%!important;
+}
+.check-radio > input:first-of-type:disabled {
+    background-color: red;
+}
+.check-radio > p {
+    flex-basis: 95%!important;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+.buttons > button {
+    font-size: 22px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: 'Circe';
+    position: relative;
+}
+
+.buttons > button:first-of-type {
+    background-color: #fff;
+    padding: 10px 50px 10px 100px;
+    border: 1px solid #0085ce;
+}
+.buttons > button:first-of-type::before {
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 80%;
+    top: 15%;
+    left: 5%;
+    background-image: url(../images/blue-arrow.png);
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+}
+.buttons > button:first-of-type:hover {
+    background-color: #0085ce;
+    border: 1px solid #0085ce;
+}
+.buttons > button:first-of-type:hover::before {
+    background-image: url(../images/white-arrow.png);
+}
+
+.buttons > button:last-of-type  {
+    color: #fff;
+    background-color: #0085ce;
+    padding: 10px 100px 10px 50px;
+    border: 1px solid #0085ce;
+}
+.buttons > button:first-of-type:hover > a {
+    color: #fff;
+}
+.buttons > button:last-of-type::before {
+    position: absolute;
+    content: '';
+    width: 17%;
+    height: 80%;
+    top: 15%;
+    right: 5%;
+    background-image: url(../images/white-arrow.png);
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+.buttons > button:last-of-type:hover {
+    color: #0085ce;
+    background-color: #ffd300;
+    border: 1px solid #ffd300;
+}
+.buttons > button:first-of-type > a {
+    color: #0085ce;
+}
+.buttons > button:last-of-type:hover::before {
+    background-image: url(../images/blue-arrow.png);
+}
+
+
+input:invalid, select:invalid {
+    border: 1px solid rgb(255, 111, 111);
+}
