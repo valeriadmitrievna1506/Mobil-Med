@@ -1,5 +1,6 @@
 $(document).ready(function () {
   calculatePrice();
+  document.querySelector('.servicesCount').innerHTML = items + ' шт.'
 });
 
 function calculatePrice() {
@@ -25,12 +26,17 @@ function calculatePrice() {
   }
 }
 
+let items = document.querySelectorAll('.table .tr').length;
+console.log(items);
+
 function prettify(num) {
   let n = String(num);
   return n.replace(/(\d{1,3}(?=(\d\d\d)+(?!\d)))/g, "$1" + " ");
 }
 
 $(".close").click(function () {
+  items -= 1;
+  document.querySelector('.servicesCount').innerHTML = items + ' шт.'
   event.target.parentNode.parentNode.remove();
   calculatePrice();
 });
