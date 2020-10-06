@@ -204,3 +204,9 @@ main {
 #text-5 > img {
     width: 40%;
 }
+
+
+
+.search-buy-block {
+    align-items: center!important;
+}
