@@ -25,6 +25,39 @@
 }
 /* *********************************************************************** */
 /* *********************************************************************** */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip > .tooltip-text {
+    visibility: hidden;
+    width: 100%;
+    white-space: normal;
+    background-color: #777;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1;
+    bottom: 130%;
+    left: -4px;
+    position: absolute;
+    z-index: 5;
+}
+.tooltip > .tooltip-text::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #777 transparent transparent transparent;
+}
+.tooltip:hover > .tooltip-text {
+    visibility: visible;
+}
 /* *********************************************************************** */
 .analysisGroups > .container {
     margin-top: 20px;
@@ -38,16 +71,31 @@
     width: 31%;
     margin-bottom: 30px;
 }
+.analysis-group > div:first-of-type > div {
+    overflow: hidden;
+}
 .analysis-group > div {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
 }
 .analysis-title {
+    white-space: nowrap;
     color: #003ece;
     font-size: 18px;
     line-height: 1.3;
 }
+.tooltip > .tooltip-text::before {
+    visibility: visible;
+    left: calc(102% + 5px);
+    top: 120%;
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    box-shadow: -8px 0px 9px 5px #fff;
+    width: 5px;
+    height: 20px;
+} 
 .text {
     display: flex;
     flex-direction: column;
