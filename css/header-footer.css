@@ -272,7 +272,11 @@ a {
   height: 55px;
   margin-left: 5px;
 }
-.nav-search > img {
+.nav-search > a {
+  margin: 0!important;
+  padding: 0!important;
+}
+.nav-search > a > img {
   width: 20px;
   height: 20px;
 }
@@ -417,7 +421,7 @@ footer {
     width: 41px;
     height: 41px;
   }
-  .nav-search > img {
+  .nav-search > a > img {
     width: 15px;
     height: 15px;
   }

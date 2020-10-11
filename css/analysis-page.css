@@ -171,7 +171,7 @@
     border-radius: 8px;
     transition: 0.3s;
     color: #404E55;
-    height: 229px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -200,11 +200,13 @@
     background-repeat: no-repeat;
     background-position: left top;
     margin-bottom: 5px;
+    line-height: 1;
 }
 .slider-analysis-time {
     background-image: url(../images/calendar-icon.svg);
     background-repeat: no-repeat;
     background-position: left center;
+    line-height: 1;
 }
 .slider-item-bottom {
     display: flex;
@@ -282,7 +284,7 @@
 .research-area {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 .research-item {
@@ -292,18 +294,27 @@
     background-size: 28px 28px;
     background-position: left top;
     padding-left: 45px;
-    padding-bottom: 24px;
-    margin-bottom: 24px;
+    padding-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 18px;
+    margin-left: 1.6%;
+    margin-right: 1.6%;
     border-bottom: 1px solid #8EC8E7;
     color: #404E55;
     transition: 0.3s;
     line-height: 1;
+    height: 65px;
 }
-.research-item:nth-of-type(7), .research-item:nth-of-type(8), .research-item:nth-of-type(9) {
+.research-item:nth-last-of-type(1), .research-item:nth-last-of-type(2), .research-item:nth-last-of-type(3) {
     border: none;
 }
 .research-item-title {
     font-size: 16px;
+    line-height: 1;
+    margin-bottom: 5px;
 }
 .research-item-subtitle {
     font-size: 12px;
@@ -358,6 +369,11 @@
 }
 .list-point-description {
     flex-basis: 80%;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 .list-point-image {
     width: 95px;
@@ -369,13 +385,13 @@
   }
 .list-point-desc-title {
     font-size: 15px;
-    line-height: 16px;
+    line-height: 18px;
     font-family: 'Circe Bold';
     color: #0085CE;
 }
 .list-point-desc-text {
     font-size: 13px;
-    line-height: 16px;
+    line-height: 1;
     color: #404E55;
 }
 #map {

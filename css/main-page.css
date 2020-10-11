@@ -96,6 +96,7 @@ body {
   max-width: 360px;
   margin-bottom: 5px;
   font-size: 23px;
+  line-height: 1;
   font-weight: 300;
   color: #656565;
 }
@@ -105,13 +106,9 @@ body {
   color: #008bd4;
 }
 .list-point:hover {
-  color: #fff!important;
   background: #008bd4;
 }
-.list-point-description:hover > .list-point-desc-title,
-.list-point-description:hover > .list-point-desc-subtitle,
-.list-point:hover > .list-point-desc-title,
-.list-point:hover > .list-point-desc-subtitle {
+.list-point:hover > .list-point-description > p{
   color: #fff!important;
 }
 
