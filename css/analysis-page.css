@@ -82,10 +82,13 @@
 }
 .search-buy-block, .search-price {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: flex-end;
     text-align: right;
     line-height: 1.1;
+}
+.search-price {
+    align-items: baseline;
 }
 .small-price-text {
     font-size: 12px;

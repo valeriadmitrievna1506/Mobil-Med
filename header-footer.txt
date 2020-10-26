@@ -159,9 +159,9 @@
                     <li><a href="https://www.mobil-med.org/services/ginecology/prices/">Прайс</a></li>
                 </ul>
               </li>
-              <a href="https://www.mobil-med.org/services/apparatnaya_diagnostika/price/">УЗИ, ЭКГ, ФЛГ</a>
-                <a href="https://www.mobil-med.org/services/offsitemedexamination/">Выездные медкомиссии</a>
-                <a href="http://www.mobil-lab.ru/">Сотрудничество</a>
+                <li><a href="https://www.mobil-med.org/services/apparatnaya_diagnostika/price/">УЗИ, ЭКГ, ФЛГ</a></li>
+                <li><a href="https://www.mobil-med.org/services/offsitemedexamination/">Выездные медкомиссии</a></li>
+                <li><a href="http://www.mobil-lab.ru/">Сотрудничество</a></li>
             </ul>
             <ul>
               <li class="user-account"><a href="https://laboratory.mobil-med.org/order-check/">Личный кабинет</a></li>

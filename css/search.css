@@ -1,0 +1,13 @@
+.search-dropdown {
+    display: block;
+    position: static;
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    margin: 20px 0;
+}
+.search-card:nth-last-of-type(1) {
+    border-bottom: none;
+}
