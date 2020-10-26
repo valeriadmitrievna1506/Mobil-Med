@@ -81,11 +81,13 @@
       </section>
       <section class="header-middle">
         <div class="container header-middle-cont">
-          <img
+          <a href="./mobilmed-main.html">
+            <img
             src="./images/Logo.svg"
             alt="MobilMed Logo"
             style="vertical-align: middle"
-          />
+            />
+          </a>
           <div class="header-middle-main">
             <div class="medbook">
               <div class="medbook-title">Медкнижка</div>
