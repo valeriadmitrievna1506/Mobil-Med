@@ -1,0 +1,49 @@
+main > .container {
+    padding-top: 40px;
+    padding-bottom: 12%;
+}
+main > .container > h1 {
+    font-size: 38px;
+    margin-bottom: .5em;
+    line-height: 1;
+    font-weight: normal;
+}
+form > div {
+    display: flex;
+    align-items: center;
+}
+form > div > input {
+    background: #e9eff3 none repeat scroll 0 0;
+    border-radius: 3px;
+    border: 1px solid ;
+    border-color: #a1a5a8 #cfd5d8 #e7edf1;
+    box-shadow: 0 1px 1px rgba(0,0,0,.15) inset;
+    color: #30424e;
+    font: 18px/36px;
+    height: 35px;
+    margin-bottom: 15px;
+    max-width: 260px;
+    padding: 0 12px;
+    width: 200px;
+    padding: 10px 5px;
+}
+form > div > p {
+    color: #acb1b4;
+    font-size: 13px;
+    margin-left: 15px;
+}
+input[type="submit"] {
+    background: #00d4b9 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: 12px/35px;
+    height: 35px;
+    letter-spacing: 1px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #00b2ae;
+    text-transform: uppercase;
+}

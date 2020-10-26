@@ -1,5 +1,6 @@
 $(function () {
   $("#phone").mask("+7 (999)-999-99-99");
+  $("#code").mask("9999999999",{placeholder:" "});
 });
 
 let disabledDays = [0];
