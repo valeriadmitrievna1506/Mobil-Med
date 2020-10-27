@@ -63,12 +63,8 @@ a {
 
 /* ********************************************************************** */
 
-#main-logo {
-  height: 40px;
-}
-#main-logo > img {
-  height: 100%;
-  width: 100%;
+.header-middle-cont > a {
+  width: 300px;
 }
 .header-number-block > * > br {
   display: none;
@@ -147,15 +143,24 @@ a {
 }
 
 .blue-button {
-  padding: 8px 25px;
-  background: #008bd4;
+  padding: 8px 10px 8px 35px;
+  background-color: #008bd4;
   box-shadow: 0 0 23px rgba(0, 139, 212, 0.46);
   font-size: 14px;
   color: #fff;
   transition: 0.3s;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-size: 25px;
+}
+#appointment-button {
+  background-image: url(../images/calendar.svg);
+}
+#basket-button {
+  background-image: url(../images/cart-icon-white.svg);
 }
 .blue-button:hover {
-  background: #e74c3c;
+  background-color: #e74c3c;
   box-shadow: 0 0 23px rgba(226, 67, 67, 0.46);
 }
 .header-number-block {
@@ -352,7 +357,7 @@ footer {
 /* ******************************************************************* */
 /* ***** TABLET VERSIONS ***** */
 
-@media (max-width: 1230px) {
+@media (max-width: 1250px) {
   .header-nav > ul > li {
     padding: 15px 8px 15px;
     padding-left: 10px;
@@ -382,7 +387,7 @@ footer {
     width: 110px;
   }
   .blue-button {
-    width: 135px;
+    width: 140px;
     text-align: center;
     font-size: 12px;
     height: 35px;
@@ -498,8 +503,11 @@ footer {
     margin: 0;
   }
   .header-middle-main > .blue-button {
-    width: auto;
-    padding: 8px 15px;
+      padding: 8px 6px 8px 26px;
+      font-size: 12px;
+      background-position: 3px center;
+      background-size: 20px;
+      width: 130px;
   }
   .medbook {
     margin: 0;
@@ -532,6 +540,15 @@ footer {
   .header-middle-main > .blue-button, .medbook {
     flex-basis: 49%;
     margin-bottom: 10px;
+  }
+  .medbook-title {
+    font-size: 14px;
+  }
+  .header-middle-main > .blue-button {
+    padding: 8px 10px;
+    font-size: 14px;
+    background-position: 5% center;
+    background-size: 25px;
   }
   .medbook-title {
     width: auto;
@@ -627,17 +644,22 @@ footer {
     font-size: 100%;
     line-height: 2;
   }
-  .header-middle-main > .blue-button {
-    padding: 8px 20px;
-  }
   .medbook,
   .header-middle-main > .blue-button {
     line-height: 1.7;
     text-align: center;
     margin: 0;
     margin-bottom: 15px;
-    flex-basis: 45%;
+    flex-basis: 48%;
     font-size: 100%;
+  }
+  .header-middle-main > .blue-button {
+    padding: 8px 20px;
+    font-size: 14px;
+    text-align: right;
+    line-height: 1.4;
+    background-position: 5% center;
+    background-size: 25px;
   }
   .phone-icon {
     margin: 0;
@@ -686,11 +708,20 @@ footer {
   .search-form-input::placeholder {
     font-size: 14px;
   }
+  .header-middle-main > .blue-button {
+    padding: 8px;
+    background-size: 20px;
+  }
 }
 
-@media (max-width: 305px) {
+@media (max-width: 315px) {
   .medbook, .header-middle-main > .blue-button {
     flex-basis: 100%;
+  }
+  .header-middle-main > .blue-button {
+    text-align: center;
+    background-size: 25px;
+    background-position: 5% center;
   }
   .phone-icon {
     display: none;

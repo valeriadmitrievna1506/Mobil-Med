@@ -11,6 +11,7 @@ main > .container > h1 {
 form > div {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 form > div > input {
     background: #e9eff3 none repeat scroll 0 0;
@@ -21,18 +22,18 @@ form > div > input {
     color: #30424e;
     font: 18px/36px;
     height: 35px;
-    margin-bottom: 15px;
     max-width: 260px;
     padding: 0 12px;
     width: 200px;
     padding: 10px 5px;
 }
-form > div > p {
+form > div > label {
     color: #acb1b4;
     font-size: 13px;
+    flex-basis: 60%;
     margin-left: 15px;
 }
-input[type="submit"] {
+input[type="submit"], button {
     background: #00d4b9 none repeat scroll 0 0;
     border: medium none;
     border-radius: 3px;
@@ -46,4 +47,25 @@ input[type="submit"] {
     text-decoration: none;
     text-shadow: 0 1px 0 #00b2ae;
     text-transform: uppercase;
+}
+
+#phone1:invalid,
+#code:invalid {
+    border: 1px solid pink;
+}
+
+@media (max-width: 445px) {
+    form > div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    form > div > label {
+        margin: 0;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 385px) {
+    main > .container > h1 {
+        font-size: 28px;
+    }
 }

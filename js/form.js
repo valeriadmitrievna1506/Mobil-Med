@@ -1,6 +1,7 @@
 $(function () {
   $("#phone").mask("+7 (999)-999-99-99");
   $("#code").mask("9999999999",{placeholder:" "});
+  $("#phone1").mask("+7-999-999-99-99");
 });
 
 let disabledDays = [0];
@@ -32,13 +33,3 @@ $("#timepicker").timepicker({
   dropdown: true,
   scrollbar: true,
 });
-
-// $("form").submit(function(){
-//   if ($('input[type="radio"]:checked').length < 1){
-//     alert("Please select at least one option from above!");
-//     return false;
-//   }
-//   else {
-
-//   }
-// });

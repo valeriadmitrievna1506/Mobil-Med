@@ -193,14 +193,14 @@
     <main>
       <div class="container">
         <h1>Результаты анализов</h1>
-        <form action="">
+        <form action="" id="check-form">
           <div>
-            <input  required id="phone" type="tel" placeholder="+7 (___)-___-__-__" />
-            <p>Номер, указанный при прохождении медицинского осмотра</p>
+            <input  required id="phone1" name="tel" type="tel" placeholder="+7-___-___-__-__" />
+            <label for="phone1">Номер, указанный при прохождении медицинского осмотра</label>
           </div>
           <div>
-            <input required id="code" type="text" placeholder="Введите номер заказа"/>
-            <p>10 цифр штрих-кода с бланка</p>
+            <input required id="code" name="code" type="text" pattern="[0-9]{10}" placeholder="Введите номер заказа"/>
+            <label for="code">10 цифр штрих-кода с бланка</label>
           </div>
           <input type="submit" value="Отправить" />
         </form>
@@ -394,6 +394,8 @@
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/script.js"></script>
     <script src="./js/jquery.maskedinput.min.js"></script>
+    <script src="./js/datepicker.min.js"></script>
+    <script src="./js/jquery.timepicker.min.js"></script>
     <script src="./js/form.js"></script>
   </body>
 </html>
