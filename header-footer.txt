@@ -1,180 +1,182 @@
 <header>
-      <section class="header-top-mobile">
-        <div class="container">
-          <a href="./mobilmed-main.html"
-            ><img src="./images/Logo.svg" alt="Mobil Med"
-          /></a>
-          <div class="menu-burger">
-            <img
-              src="./images/burger-menu.svg"
-              alt="Меню"
-              id="menu-burger"
-              style="position: relative"
-            />
-            <div id="dropdown-burger">
-              <div class="dropdown-burger">
-                <a href="https://laboratory.mobil-med.org/order-check/" class="burger-user-account"
-                  >Личный кабинет</a
-                >
-                <div class="menu-burger-point">Анализы
-                  <ul>
-                    <li><a href="https://laboratory.mobil-med.org/analysis/">Анализы</a></li>
+        <section class="header-top-mobile">
+          <div class="container">
+            <a href="./mobilmed-main.html"
+              ><img src="./images/Logo.svg" alt="Mobil Med"
+            /></a>
+            <div class="menu-burger">
+              <img
+                src="./images/burger-menu.svg"
+                alt="Меню"
+                id="menu-burger"
+                style="position: relative"
+              />
+              <div id="dropdown-burger">
+                <div class="dropdown-burger">
+                  <a href="https://laboratory.mobil-med.org/order-check/" class="burger-user-account"
+                    >Личный кабинет</a
+                  >
+                  <div class="menu-burger-point">Анализы
+                    <ul>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/">Анализы</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/">Анализы по видам исследований</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/by_organ/">Анализы по органам</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/catalog/">Анализы по категориям</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/cito/">CITO анализы</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/urgent/">Срочные анализы</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/order-check/">Узнать результаты</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/contacts/list/">Где сдать анализы</a></li>
+                    </ul>
+                  </div>
+                  <div class="menu-burger-point">Медкнижка
+                    <ul>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/prices/">Медкнижка</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/prices/">Цены</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/about/">Об услуге</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/howto/">Как пройти врачей</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/extend/">Продлить медкнижку</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/makenew/">Оформить новую медкнижку</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/fullprice/">Полный прайслист на услуги</a></li>
+                    </ul>
+                  </div>
+                  <div class="menu-burger-point">Профосмотры
+                    <ul>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/prices/">Профосмотры</a></li>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/prices/">Цены</a></li>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/about/">Об услуге</a></li>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/passport_zdorovya/">Паспорт здоровья</a></li>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/howto/">Как провести профосмотр</a></li>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/docs/">Документация</a></li>
+                    </ul>
+                  </div>
+                  <div class="menu-burger-point">Гинекология
+                    <ul>
+                      <li><a href="https://www.mobil-med.org/services/ginecology/prices/">Гинекология</a></li>
+                      <li><a href="https://www.mobil-med.org/services/ginecology/about/">Об услуге</a></li>
+                      <li><a href="https://www.mobil-med.org/services/ginecology/prices/programms/">Программы</a></li>
+                      <li><a href="https://www.mobil-med.org/services/ginecology/prices/">Прайс</a></li>
+                    </ul>
+                  </div>
+                  <a href="https://www.mobil-med.org/services/apparatnaya_diagnostika/price/">УЗИ, ЭКГ, ФЛГ</a>
+                  <a href="https://www.mobil-med.org/services/offsitemedexamination/">Выездные медкомиссии</a>
+                  <a href="http://www.mobil-lab.ru/">Сотрудничество</a>
+                  <a href="https://www.mobil-med.org/search/">Поиск</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="header-top">
+          <div class="container">
+            <ul>
+              <li><a href="https://www.mobil-med.org/about/company/">О компании</a></li>
+              <li><a href="https://www.mobil-med.org/about/licenses/">Лицензии и сетификаты</a></li>
+              <li><a href="https://www.mobil-med.org/about/history/">История компании</a></li>
+              <li><a href="https://www.mobil-med.org/about/factsandnumbers/">Цифры и факты</a></li>
+              <li><a href="https://www.mobil-med.org/about/reviews/">Наши Партнеры</a></li>
+              <li><a href="https://www.mobil-med.org/offices/">Контакты</a></li>
+              <li><a href="https://www.mobil-med.org/careers/">Вакансии</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="header-middle">
+          <div class="container header-middle-cont">
+            <a href="./mobilmed-main.html">
+              <img
+              src="./images/Logo.svg"
+              alt="MobilMed Logo"
+              style="vertical-align: middle"
+              />
+            </a>
+            <div class="header-middle-main">
+              <div class="medbook">
+                <div class="medbook-title">Медкнижка</div>
+                <div class="medbook-dropdown">
+                  <a href="https://www.mobil-med.org/services/medrecords/statuslmk/">Проверить статус</a>
+                  <a href="https://www.mobil-med.org/services/medrecords/checklmk/">Проверить книжку</a>
+                </div>
+              </div>
+
+              <a href="https://www.mobil-med.org/record/" id="basket-button" class="blue-button"></a>
+
+              <div class="phone-icon">
+                <img src="./images/engIcon-phone.svg" />
+              </div>
+              <div class="header-number-block hnb-first">
+                <p class="header-number">+7 (495) 781-000-3</p>
+                <p class="header-number-subtitle">
+                  Единый номер<br />
+                  Контакт-Центра
+                </p>
+              </div>
+              <div class="header-number-block">
+                <p class="header-number">8 800 510 000 3</p>
+                <p class="header-number-subtitle">
+                  Звонок по России –<br />Бесплатный
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="header-menu">
+          <div class="container">
+            <nav class="header-nav">
+              <ul>
+                <li>
+                  <a href="https://laboratory.mobil-med.org/analysis/">Анализы</a>
+                  <ul class="header-nav-dropdown">
                     <li><a href="https://laboratory.mobil-med.org/analysis/">Анализы по видам исследований</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/analysis/by_organ/">Анализы по органам</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/analysis/catalog/">Анализы по категориям</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/analysis/cito/">CITO анализы</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/analysis/urgent/">Срочные анализы</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/order-check/">Узнать результаты</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/contacts/list/">Где сдать анализы</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/by_organ/">Анализы по органам</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/catalog/">Анализы по категориям</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/cito/">CITO анализы</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/analysis/urgent/">Срочные анализы</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/order-check/">Узнать результаты</a></li>
+                      <li><a href="https://laboratory.mobil-med.org/contacts/list/">Где сдать анализы</a></li>
                   </ul>
-                </div>
-                <div class="menu-burger-point">Медкнижка
-                  <ul>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/prices/">Медкнижка</a></li>
+                </li>
+                <li>
+                  <a href="https://www.mobil-med.org/services/medrecords/prices/">Медкнижка</a>
+                  <ul class="header-nav-dropdown">
                     <li><a href="https://www.mobil-med.org/services/medrecords/prices/">Цены</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/about/">Об услуге</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/howto/">Как пройти врачей</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/extend/">Продлить медкнижку</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/makenew/">Оформить новую медкнижку</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/fullprice/">Полный прайслист на услуги</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/about/">Об услуге</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/howto/">Как пройти врачей</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/extend/">Продлить медкнижку</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/makenew/">Оформить новую медкнижку</a></li>
+                      <li><a href="https://www.mobil-med.org/services/medrecords/fullprice/">Полный прайслист на услуги</a></li>
                   </ul>
-                </div>
-                <div class="menu-burger-point">Профосмотры
-                  <ul>
-                    <li><a href="https://www.mobil-med.org/services/profexaminations/prices/">Профосмотры</a></li>
+                </li>
+                <li>
+                  <a href="https://www.mobil-med.org/services/profexaminations/prices/">Профосмотры</a>
+                  <ul class="header-nav-dropdown">
                     <li><a href="https://www.mobil-med.org/services/profexaminations/prices/">Цены</a></li>
-                    <li><a href="https://www.mobil-med.org/services/profexaminations/about/">Об услуге</a></li>
-                    <li><a href="https://www.mobil-med.org/services/profexaminations/passport_zdorovya/">Паспорт здоровья</a></li>
-                    <li><a href="https://www.mobil-med.org/services/profexaminations/howto/">Как провести профосмотр</a></li>
-                    <li><a href="https://www.mobil-med.org/services/profexaminations/docs/">Документация</a></li>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/about/">Об услуге</a></li>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/passport_zdorovya/">Паспорт здоровья</a></li>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/howto/">Как провести профосмотр</a></li>
+                      <li><a href="https://www.mobil-med.org/services/profexaminations/docs/">Документация</a></li>
                   </ul>
-                </div>
-                <div class="menu-burger-point">Гинекология
-                  <ul>
-                    <li><a href="https://www.mobil-med.org/services/ginecology/prices/">Гинекология</a></li>
+                </li>
+                <li>
+                  <a href="https://www.mobil-med.org/services/ginecology/prices/">Гинекология</a>
+                  <ul class="header-nav-dropdown">
                     <li><a href="https://www.mobil-med.org/services/ginecology/about/">Об услуге</a></li>
-                    <li><a href="https://www.mobil-med.org/services/ginecology/prices/programms/">Программы</a></li>
-                    <li><a href="https://www.mobil-med.org/services/ginecology/prices/">Прайс</a></li>
+                      <li><a href="https://www.mobil-med.org/services/ginecology/prices/programms/">Программы</a></li>
+                      <li><a href="https://www.mobil-med.org/services/ginecology/prices/">Прайс</a></li>
                   </ul>
-                </div>
-                <a href="https://www.mobil-med.org/services/apparatnaya_diagnostika/price/">УЗИ, ЭКГ, ФЛГ</a>
-                <a href="https://www.mobil-med.org/services/offsitemedexamination/">Выездные медкомиссии</a>
-                <a href="http://www.mobil-lab.ru/">Сотрудничество</a>
-                <a href="https://www.mobil-med.org/search/">Поиск</a>
-              </div>
-            </div>
+                </li>
+                  <li><a href="https://www.mobil-med.org/services/apparatnaya_diagnostika/price/">УЗИ, ЭКГ, ФЛГ</a></li>
+                  <li><a href="https://www.mobil-med.org/services/offsitemedexamination/">Выездные медкомиссии</a></li>
+                  <li><a href="http://www.mobil-lab.ru/">Сотрудничество</a></li>
+              </ul>
+              <ul>
+                <li class="user-account"><a href="https://laboratory.mobil-med.org/order-check/">Личный кабинет</a></li>
+                <li class="nav-search">
+                  <a href="https://www.mobil-med.org/search/"><img src="./images/engIcon-search.svg" /></a>
+                </li>
+              </ul>
+            </nav>
           </div>
-        </div>
-      </section>
-      <section class="header-top">
-        <div class="container">
-          <ul>
-            <li><a href="https://www.mobil-med.org/about/company/">О компании</a></li>
-            <li><a href="https://www.mobil-med.org/about/licenses/">Лицензии и сетификаты</a></li>
-            <li><a href="https://www.mobil-med.org/about/history/">История компании</a></li>
-            <li><a href="https://www.mobil-med.org/about/factsandnumbers/">Цифры и факты</a></li>
-            <li><a href="https://www.mobil-med.org/about/reviews/">Наши Партнеры</a></li>
-            <li><a href="https://www.mobil-med.org/offices/">Контакты</a></li>
-            <li><a href="https://www.mobil-med.org/careers/">Вакансии</a></li>
-          </ul>
-        </div>
-      </section>
-      <section class="header-middle">
-        <div class="container header-middle-cont">
-          <a href="./mobilmed-main.html">
-            <img
-            src="./images/Logo.svg"
-            alt="MobilMed Logo"
-            style="vertical-align: middle"
-            />
-          </a>
-          <div class="header-middle-main">
-            <div class="medbook">
-              <div class="medbook-title">Медкнижка</div>
-              <div class="medbook-dropdown">
-                <a href="https://www.mobil-med.org/services/medrecords/statuslmk/">Проверить статус</a>
-                <a href="https://www.mobil-med.org/services/medrecords/checklmk/">Проверить книжку</a>
-              </div>
-            </div>
-            <a href="https://www.mobil-med.org/record/" class="blue-button">Запись on-line</a>
-            <div class="phone-icon">
-              <img src="./images/engIcon-phone.svg" />
-            </div>
-            <div class="header-number-block hnb-first">
-              <p class="header-number">+7 (495) 781-000-3</p>
-              <p class="header-number-subtitle">
-                Единый номер<br />
-                Контакт-Центра
-              </p>
-            </div>
-            <div class="header-number-block">
-              <p class="header-number">8 800 510 000 3</p>
-              <p class="header-number-subtitle">
-                Звонок по России –<br />Бесплатный
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="header-menu">
-        <div class="container">
-          <nav class="header-nav">
-            <ul>
-              <li>
-                <a href="https://laboratory.mobil-med.org/analysis/">Анализы</a>
-                <ul class="header-nav-dropdown">
-                  <li><a href="https://laboratory.mobil-med.org/analysis/">Анализы по видам исследований</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/analysis/by_organ/">Анализы по органам</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/analysis/catalog/">Анализы по категориям</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/analysis/cito/">CITO анализы</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/analysis/urgent/">Срочные анализы</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/order-check/">Узнать результаты</a></li>
-                    <li><a href="https://laboratory.mobil-med.org/contacts/list/">Где сдать анализы</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="https://www.mobil-med.org/services/medrecords/prices/">Медкнижка</a>
-                <ul class="header-nav-dropdown">
-                  <li><a href="https://www.mobil-med.org/services/medrecords/prices/">Цены</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/about/">Об услуге</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/howto/">Как пройти врачей</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/extend/">Продлить медкнижку</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/makenew/">Оформить новую медкнижку</a></li>
-                    <li><a href="https://www.mobil-med.org/services/medrecords/fullprice/">Полный прайслист на услуги</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="https://www.mobil-med.org/services/profexaminations/prices/">Профосмотры</a>
-                <ul class="header-nav-dropdown">
-                  <li><a href="https://www.mobil-med.org/services/profexaminations/prices/">Цены</a></li>
-                    <li><a href="https://www.mobil-med.org/services/profexaminations/about/">Об услуге</a></li>
-                    <li><a href="https://www.mobil-med.org/services/profexaminations/passport_zdorovya/">Паспорт здоровья</a></li>
-                    <li><a href="https://www.mobil-med.org/services/profexaminations/howto/">Как провести профосмотр</a></li>
-                    <li><a href="https://www.mobil-med.org/services/profexaminations/docs/">Документация</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="https://www.mobil-med.org/services/ginecology/prices/">Гинекология</a>
-                <ul class="header-nav-dropdown">
-                  <li><a href="https://www.mobil-med.org/services/ginecology/about/">Об услуге</a></li>
-                    <li><a href="https://www.mobil-med.org/services/ginecology/prices/programms/">Программы</a></li>
-                    <li><a href="https://www.mobil-med.org/services/ginecology/prices/">Прайс</a></li>
-                </ul>
-              </li>
-                <li><a href="https://www.mobil-med.org/services/apparatnaya_diagnostika/price/">УЗИ, ЭКГ, ФЛГ</a></li>
-                <li><a href="https://www.mobil-med.org/services/offsitemedexamination/">Выездные медкомиссии</a></li>
-                <li><a href="http://www.mobil-lab.ru/">Сотрудничество</a></li>
-            </ul>
-            <ul>
-              <li class="user-account"><a href="https://laboratory.mobil-med.org/order-check/">Личный кабинет</a></li>
-              <li class="nav-search">
-                <a href="https://www.mobil-med.org/search/"><img src="./images/engIcon-search.svg" /></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-    </header>
+        </section>
+      </header>
 
 
     <footer>

@@ -184,8 +184,10 @@
 }
 .slider-item-title {
     font-size: 15px;
+    color: #404E55;
     line-height: 16px;
     transition: 0.3s;
+    height: 100%;
 }
 .slider-item:hover > :first-child {
     color: #0085CE;
