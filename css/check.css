@@ -12,6 +12,7 @@ form > div {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 form > div > input {
     background: #e9eff3 none repeat scroll 0 0;
@@ -22,16 +23,37 @@ form > div > input {
     color: #30424e;
     font: 18px/36px;
     height: 35px;
-    max-width: 260px;
+    max-width: 200px;
     padding: 0 12px;
     width: 200px;
     padding: 10px 5px;
+    flex-basis: 40%;
 }
 form > div > label {
     color: #acb1b4;
     font-size: 13px;
     flex-basis: 60%;
     margin-left: 15px;
+}
+.error-message {
+    flex-basis: 30%;
+    margin-top: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: pink;
+    border-radius: 5px;
+    transition: 0.3s;
+    opacity: 0;
+}
+.form-error {
+    max-width: 200px;
+    margin-top: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: pink;
+    border-radius: 5px;
+    transition: 0.3s;
+    opacity: 0;
 }
 input[type="submit"], button {
     background: #00d4b9 none repeat scroll 0 0;
